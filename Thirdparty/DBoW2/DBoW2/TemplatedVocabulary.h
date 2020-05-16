@@ -239,6 +239,7 @@ public:
   /**
    * Loads the vocabulary from a text file
    * @param filename
+   * 创建10叉树
    */
   bool loadFromTextFile(const std::string &filename);
 
@@ -1369,7 +1370,8 @@ bool TemplatedVocabulary<TDescriptor,F>::loadFromTextFile(const std::string &fil
 
     m_words.clear();
     m_nodes.clear();
-
+    
+    //读取树的设置 m_k分支,m_L层,评分方法n1,权重计算方法n2
     string s;
     getline(f,s);
     stringstream ss;
@@ -1399,6 +1401,7 @@ bool TemplatedVocabulary<TDescriptor,F>::loadFromTextFile(const std::string &fil
 
     m_nodes.resize(1);
     m_nodes[0].id = 0;
+    //text格式:parent_id,is_lead,descriptor(32),weight
     while(!f.eof())
     {
         string snode;
@@ -1408,7 +1411,7 @@ bool TemplatedVocabulary<TDescriptor,F>::loadFromTextFile(const std::string &fil
 
         int nid = m_nodes.size();
         m_nodes.resize(m_nodes.size()+1);
-	m_nodes[nid].id = nid;
+	      m_nodes[nid].id = nid;
 	
         int pid ;
         ssnode >> pid;
@@ -1419,7 +1422,7 @@ bool TemplatedVocabulary<TDescriptor,F>::loadFromTextFile(const std::string &fil
         ssnode >> nIsLeaf;
 
         stringstream ssd;
-        for(int iD=0;iD<F::L;iD++) // F::L
+        for(int iD=0;iD<F::L;iD++) // F::L==32
         {
             string sElement;
             ssnode >> sElement;
@@ -1428,7 +1431,7 @@ bool TemplatedVocabulary<TDescriptor,F>::loadFromTextFile(const std::string &fil
         F::fromString(m_nodes[nid].descriptor, ssd.str());
 
         ssnode >> m_nodes[nid].weight;
-
+        //word和叶节点一一对应
         if(nIsLeaf>0)
         {
             int wid = m_words.size();

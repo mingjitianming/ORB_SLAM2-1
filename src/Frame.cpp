@@ -61,7 +61,8 @@ Frame::Frame(const Frame &frame)
         SetPose(frame.mTcw);
 }
 
-
+// Frame(mImGray,imGrayRight,timestamp,
+//                     mpORBextractorLeft,mpORBextractorRight,mpORBVocabulary,mK,mDistCoef,mbf,mThDepth);
 // 双目的初始化
 Frame::Frame(const cv::Mat &imLeft, const cv::Mat &imRight, const double &timeStamp, ORBextractor* extractorLeft, ORBextractor* extractorRight, ORBVocabulary* voc, cv::Mat &K, cv::Mat &distCoef, const float &bf, const float &thDepth)
     :mpORBvocabulary(voc),mpORBextractorLeft(extractorLeft),mpORBextractorRight(extractorRight), mTimeStamp(timeStamp), mK(K.clone()),mDistCoef(distCoef.clone()), mbf(bf), mb(0), mThDepth(thDepth),
@@ -91,7 +92,7 @@ Frame::Frame(const cv::Mat &imLeft, const cv::Mat &imRight, const double &timeSt
     if(mvKeys.empty())
         return;
     // Undistort特征点，这里没有对双目进行校正，因为要求输入的图像已经进行极线校正
-    UndistortKeyPoints();
+    UndistortKeyPoints();  //矫正特征点
 
     // 计算双目间的匹配, 匹配成功的特征点会计算其深度
     // 深度存放在mvuRight 和 mvDepth 中
@@ -240,7 +241,7 @@ Frame::Frame(const cv::Mat &imGray, const double &timeStamp, ORBextractor* extra
 
 void Frame::AssignFeaturesToGrid()
 {
-    int nReserve = 0.5f*N/(FRAME_GRID_COLS*FRAME_GRID_ROWS);
+    int nReserve = 0.5f*N/(FRAME_GRID_COLS*FRAME_GRID_ROWS);   //为什么乘0.5???
     for(unsigned int i=0; i<FRAME_GRID_COLS;i++)
         for (unsigned int j=0; j<FRAME_GRID_ROWS;j++)
             mGrid[i][j].reserve(nReserve);
@@ -353,6 +354,8 @@ bool Frame::isInFrustum(MapPoint *pMP, float viewingCosLimit)
 
     // Predict scale in the image
     // V-D 4) 根据深度预测尺度（对应特征点在一层）
+    // ！！！！通过函数调用可以发现，isInFrustum只会在Tracking.cpp中被当前mCurrentFrame调用
+    // 因此nPredictedLevel记录的是该3D点在mCurrentFrame上可能的被观测到的金字塔层数
     const int nPredictedLevel = pMP->PredictScale(dist,this);
 
     // Data used by the tracking
@@ -539,7 +542,7 @@ void Frame::ComputeImageBounds(const cv::Mat &imLeft)
  */
 void Frame::ComputeStereoMatches()
 {
-    mvuRight = vector<float>(N,-1.0f);
+    mvuRight = vector<float>(N,-1.0f);  //N:特征点数量
     mvDepth = vector<float>(N,-1.0f);
 
     const int thOrbDist = (ORBmatcher::TH_HIGH+ORBmatcher::TH_LOW)/2;
@@ -600,7 +603,7 @@ void Frame::ComputeStereoMatches()
 
         if(vCandidates.empty())
             continue;
-
+        //右侧图像中对应的匹配点一定在该关键点像素坐标的左侧
         const float minU = uL-maxD; // 最小匹配范围
         const float maxU = uL-minD; // 最大匹配范围
 

@@ -106,7 +106,7 @@ public:
 
     // Lists used to recover the full camera trajectory at the end of the execution.
     // Basically we store the reference keyframe for each frame and its relative transformation
-    list<cv::Mat> mlRelativeFramePoses;
+    list<cv::Mat> mlRelativeFramePoses;  // 与关键帧的相对位姿
     list<KeyFrame*> mlpReferences;
     list<double> mlFrameTimes;
     list<bool> mlbLost;
@@ -165,7 +165,7 @@ protected:
 
     //BoW
     ORBVocabulary* mpORBVocabulary;
-    KeyFrameDatabase* mpKeyFrameDB;
+    KeyFrameDatabase* mpKeyFrameDB;  //在loopclosing中添加关键帧
 
     // Initalization (only for monocular)
     // 单目初始器
@@ -219,7 +219,7 @@ protected:
     //Color order (true RGB, false BGR, ignored if grayscale)
     bool mbRGB;
 
-    list<MapPoint*> mlpTemporalPoints;
+    list<MapPoint*> mlpTemporalPoints;   //临时添加的MapPoint，之后在CreateNewKeyFrame之前会全部删除
 };
 
 } //namespace ORB_SLAM

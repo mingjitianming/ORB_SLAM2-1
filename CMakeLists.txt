@@ -17,7 +17,8 @@ endif( CMAKE_BUILD_TYPE MATCHES "Debug" )
 
 LIST(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)
 
-find_package(OpenCV 2.4.10 REQUIRED)
+#find_package(OpenCV 2.4.10 REQUIRED)
+find_package(OpenCV REQUIRED)
 find_package(Eigen3 REQUIRED)
 find_package(Pangolin REQUIRED)
 
@@ -71,6 +72,12 @@ target_link_libraries(stereo_EuRoC ${PROJECT_NAME})
 
 add_executable(rgbd_tum Examples/RGB-D/rgbd_tum.cc)
 target_link_libraries(rgbd_tum ${PROJECT_NAME})
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Monocular)
+
+add_executable(mono_tum
+Examples/Monocular/mono_tum.cc)
+target_link_libraries(mono_tum ${PROJECT_NAME})
 
 # Build tools
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Vocabulary)

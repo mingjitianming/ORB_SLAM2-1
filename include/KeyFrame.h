@@ -206,10 +206,11 @@ public:
 protected:
 
     // SE3 Pose and camera center
-    cv::Mat Tcw;
-    cv::Mat Twc;
+    cv::Mat Tcw;  //world to camera
+    cv::Mat Twc;  //camera to world
     cv::Mat Ow;
 
+    // 世界坐标系下，左目相机中心到立体相机中心的向量，方向由左目相机指向立体相机中心
     cv::Mat Cw; // Stereo middel point. Only for visualization
 
     // MapPoints associated to keypoints

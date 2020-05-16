@@ -52,8 +52,9 @@ using namespace std;
 
 namespace ORB_SLAM2
 {
-
-Tracking::Tracking(System *pSys, ORBVocabulary* pVoc, FrameDrawer *pFrameDrawer, MapDrawer *pMapDrawer, Map *pMap, KeyFrameDatabase* pKFDB, const string &strSettingPath, const int sensor):
+//加载相机设置及orb提取设置
+Tracking::Tracking(System *pSys, ORBVocabulary* pVoc, FrameDrawer *pFrameDrawer, MapDrawer *pMapDrawer,
+                 Map *pMap, KeyFrameDatabase* pKFDB, const string &strSettingPath, const int sensor):
     mState(NO_IMAGES_YET), mSensor(sensor), mbOnlyTracking(false), mbVO(false), mpORBVocabulary(pVoc),
     mpKeyFrameDB(pKFDB), mpInitializer(static_cast<Initializer*>(NULL)), mpSystem(pSys), mpViewer(NULL),
     mpFrameDrawer(pFrameDrawer), mpMapDrawer(pMapDrawer), mpMap(pMap), mnLastRelocFrameId(0)
@@ -203,7 +204,7 @@ cv::Mat Tracking::GrabImageStereo(const cv::Mat &imRectLeft, const cv::Mat &imRe
     {
         if(mbRGB)
         {
-            cvtColor(mImGray,mImGray,CV_RGB2GRAY);
+            cvtColor(mImGray,mImGray,CV_RGB2GRAY);  //转换成灰度图
             cvtColor(imGrayRight,imGrayRight,CV_RGB2GRAY);
         }
         else
@@ -396,7 +397,7 @@ void Tracking::Track()
             else
             {
                 // BOW搜索，PnP求解位姿
-                bOK = Relocalization();
+                bOK = Relocalization();    //TODO:
             }
         }
         else
@@ -625,7 +626,7 @@ void Tracking::Track()
 }
 
 /**
- * @brief 双目和rgbd的地图初始化
+ * @brief 双目和rgbd的地图初始化，由于stereo有深度图，可以单帧初始化
  *
  * 由于具有深度信息，直接生成MapPoints
  */
@@ -642,8 +643,10 @@ void Tracking::StereoInitialization()
         // mCurrentFrame的数据类型为Frame
         // KeyFrame包含Frame、地图3D点、以及BoW
         // KeyFrame里有一个mpMap，Tracking里有一个mpMap，而KeyFrame里的mpMap都指向Tracking里的这个mpMap
-        // KeyFrame里有一个mpKeyFrameDB，Tracking里有一个mpKeyFrameDB，而KeyFrame里的mpMap都指向Tracking里的这个mpKeyFrameDB
+        // KeyFrame里有一个mpKeyFrameDB，Tracking里有一个mpKeyFrameDB，而KeyFrame里的mpKeyFrameDB都指向Tracking里的这个mpKeyFrameDB
         KeyFrame* pKFini = new KeyFrame(mCurrentFrame,mpMap,mpKeyFrameDB);
+
+        // ！！！这里是不是缺少一个 pKFini->ComputeBoW();  //???
 
         // Insert KeyFrame in the map
         // KeyFrame中包含了地图、反过来地图中也包含了KeyFrame，相互包含
@@ -651,14 +654,14 @@ void Tracking::StereoInitialization()
         mpMap->AddKeyFrame(pKFini);
 
         // Create MapPoints and asscoiate to KeyFrame
-        // 步骤4：为每个特征点构造MapPoint
+        // 步骤4：通过stereo深度为每个特征点构造MapPoint
         for(int i=0; i<mCurrentFrame.N;i++)
         {
             float z = mCurrentFrame.mvDepth[i];
             if(z>0)
             {
                 // 步骤4.1：通过反投影得到该特征点的3D坐标
-                cv::Mat x3D = mCurrentFrame.UnprojectStereo(i);
+                cv::Mat x3D = mCurrentFrame.UnprojectStereo(i);  //world_frame下的坐标
                 // 步骤4.2：将3D点构造为MapPoint
                 MapPoint* pNewMP = new MapPoint(x3D,pKFini,mpMap);
 
@@ -669,7 +672,7 @@ void Tracking::StereoInitialization()
 
                 // a.表示该MapPoint可以被哪个KeyFrame的哪个特征点观测到
                 pNewMP->AddObservation(pKFini,i);
-                // b.从众多观测到该MapPoint的特征点中挑选区分读最高的描述子
+                // b.从众多观测到该MapPoint的特征点中挑选区分度最高的描述子
                 pNewMP->ComputeDistinctiveDescriptors();
                 // c.更新该MapPoint平均观测方向以及观测距离的范围
                 pNewMP->UpdateNormalAndDepth();
@@ -723,7 +726,7 @@ void Tracking::MonocularInitialization()
     if(!mpInitializer)
     {
         // Set Reference Frame
-        // 单目初始帧的特征点数必须大于100
+        // 单目初始帧提取的特征点数必须大于100，否则放弃该帧图像
         if(mCurrentFrame.mvKeys.size()>100)
         {
             // 步骤1：得到用于初始化的第一帧，初始化需要两帧
@@ -875,7 +878,7 @@ void Tracking::CreateInitialMapMonocular()
     }
 
     // Update Connections
-    // 步骤5：更新关键帧间的连接关系
+    // 步骤5：更新关键帧间的连接关系，对于一个新创建的关键帧都会执行一次关键连接关系更新
     // 在3D点和关键帧之间建立边，每个边有一个权重，边的权重是该关键帧与当前帧公共3D点的个数
     pKFini->UpdateConnections();
     pKFcur->UpdateConnections();
@@ -888,6 +891,7 @@ void Tracking::CreateInitialMapMonocular()
 
     // Set median depth to 1
     // 步骤6：!!!将MapPoints的中值深度归一化到1，并归一化两帧之间变换
+    // 单目传感器无法恢复真实的深度，这里将点云中值深度（欧式距离，不是指z）归一化到1
     // 评估关键帧场景深度，q=2表示中值
     float medianDepth = pKFini->ComputeSceneMedianDepth(2);
     float invMedianDepth = 1.0f/medianDepth;
@@ -901,7 +905,7 @@ void Tracking::CreateInitialMapMonocular()
 
     // Scale initial baseline
     cv::Mat Tc2w = pKFcur->GetPose();
-    // x/z y/z 将z归一化到1 
+    // 根据点云归一化比例缩放平移量
     Tc2w.col(3).rowRange(0,3) = Tc2w.col(3).rowRange(0,3)*invMedianDepth;
     pKFcur->SetPose(Tc2w);
 
@@ -944,8 +948,8 @@ void Tracking::CreateInitialMapMonocular()
 
 /**
  * @brief 检查上一帧中的MapPoints是否被替换
- * 
- * Local Mapping线程可能会将关键帧中某些MapPoints进行替换，由于tracking中需要用到mLastFrame，这里检查并更新上一帧中被替换的MapPoints
+ * keyframe在local_mapping和loopclosure中存在fuse mappoint。
+ * 由于这些mappoint被改变了，且只更新了关键帧的mappoint，对于mLastFrame普通帧，也要检查并更新mappoint
  * @see LocalMapping::SearchInNeighbors()
  */
 void Tracking::CheckReplacedInLastFrame()
@@ -972,7 +976,7 @@ void Tracking::CheckReplacedInLastFrame()
  * 2. 对属于同一node的描述子进行匹配
  * 3. 根据匹配对估计当前帧的姿态
  * 4. 根据姿态剔除误匹配
- * @return 如果匹配数大于10，返回true
+ * @return 如果通过重投影误差检测的匹配数大于10，返回true
  */
 bool Tracking::TrackReferenceKeyFrame()
 {
@@ -997,7 +1001,7 @@ bool Tracking::TrackReferenceKeyFrame()
     mCurrentFrame.SetPose(mLastFrame.mTcw); // 用上一次的Tcw设置初值，在PoseOptimization可以收敛快一些
 
     // 步骤4:通过优化3D-2D的重投影误差来获得位姿
-    Optimizer::PoseOptimization(&mCurrentFrame);
+    Optimizer::PoseOptimization(&mCurrentFrame);  // 使用优化方式求取位姿
 
     // Discard outliers
     // 步骤5：剔除优化后的outlier匹配点（MapPoints）
@@ -1136,6 +1140,7 @@ bool Tracking::TrackWithMotionModel()
     UpdateLastFrame();
 
     // 根据Const Velocity Model(认为这两帧之间的相对运动和之前两帧间相对运动相同)估计当前帧的位姿
+    // mVelocity为最近一次前后帧位姿之差
     mCurrentFrame.SetPose(mVelocity*mLastFrame.mTcw);
 
     fill(mCurrentFrame.mvpMapPoints.begin(),mCurrentFrame.mvpMapPoints.end(),static_cast<MapPoint*>(NULL));
@@ -1163,8 +1168,8 @@ bool Tracking::TrackWithMotionModel()
         return false;
 
     // Optimize frame pose with all matches
-    // 步骤3：优化位姿
-    Optimizer::PoseOptimization(&mCurrentFrame);
+    // 步骤3：优化位姿，only-pose BA优化
+    Optimizer::PoseOptimization(&mCurrentFrame);  // 优化重投影误差
 
     // Discard outliers
     // 步骤4：优化位姿后剔除outlier的mvpMapPoints

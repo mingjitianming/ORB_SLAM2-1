@@ -69,7 +69,7 @@ System::System(const string &strVocFile, const string &strSettingsFile, const eS
     mpVocabulary = new ORBVocabulary();
     bool bVocLoad = false; // chose loading method based on file extension
     if (has_suffix(strVocFile, ".txt"))
-	  bVocLoad = mpVocabulary->loadFromTextFile(strVocFile);
+	  bVocLoad = mpVocabulary->loadFromTextFile(strVocFile);  //创建词袋树
 	else if(has_suffix(strVocFile, ".bin"))
 	  bVocLoad = mpVocabulary->loadFromBinaryFile(strVocFile);
 	else
@@ -134,7 +134,7 @@ cv::Mat System::TrackStereo(const cv::Mat &imLeft, const cv::Mat &imRight, const
     // Check mode change
     {
         unique_lock<mutex> lock(mMutexMode);
-        if(mbActivateLocalizationMode)
+        if(mbActivateLocalizationMode)   //仅定位模式
         {
             mpLocalMapper->RequestStop();
 
