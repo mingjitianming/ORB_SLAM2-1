@@ -409,6 +409,7 @@ static int bit_pattern_31_[256*4] =
     -1,-6, 0,-11/*mean (0.127148), correlation (0.547401)*/
 };
 
+//计算了金字塔参数,和圆的与计算关系
 ORBextractor::ORBextractor(int _nfeatures, float _scaleFactor, int _nlevels,
          int _iniThFAST, int _minThFAST):
     nfeatures(_nfeatures), scaleFactor(_scaleFactor), nlevels(_nlevels),
@@ -469,10 +470,10 @@ ORBextractor::ORBextractor(int _nfeatures, float _scaleFactor, int _nlevels,
     //This is for orientation
     // pre-compute the end of a row in a circular patch
     umax.resize(HALF_PATCH_SIZE + 1);
-
-    int v, v0, vmax = cvFloor(HALF_PATCH_SIZE * sqrt(2.f) / 2 + 1);
+    //在31*31的pitch中计算,半径为15,计算了圆第一象限x,y的16个对应关系
+    int v, v0, vmax = cvFloor(HALF_PATCH_SIZE * sqrt(2.f) / 2 + 1);   //HALF_PATCH_SIZE*cos(pi/6),1点钟方向
     int vmin = cvCeil(HALF_PATCH_SIZE * sqrt(2.f) / 2);
-    const double hp2 = HALF_PATCH_SIZE*HALF_PATCH_SIZE;
+    const double hp2 = HALF_PATCH_SIZE*HALF_PATCH_SIZE;  //
     for (v = 0; v <= vmax; ++v)
         umax[v] = cvRound(sqrt(hp2 - v * v));
 
@@ -826,7 +827,7 @@ void ORBextractor::ComputeKeyPointsOctTree(vector<vector<KeyPoint> >& allKeypoin
 
         // wubo 如果直接对整张图进行特征点检测，则对检测结果判断每个区域内是否有特征点会比较麻烦，因此这里按照一个区域一个区域的方式检测特征点
         // 按区域提取特征点---> vToDistributeKeys
-        //以30x30的像素块计算fast特征点
+        //以wCellxhCell的像素块计算fast特征点
         for(int i=0; i<nRows; i++)   
         {
             // 计算每个块的Y方向上起始和终止区域（iniY，maxY）
