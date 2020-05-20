@@ -35,6 +35,24 @@
 			}
 		},
 		{
+			"file": "Examples/Stereo/stereo_kitti.cpp",
+			"settings":
+			{
+				"buffer_size": 4791,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Examples/Stereo/stereo_EuRoC.cpp",
+			"settings":
+			{
+				"buffer_size": 6697,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "include/System.h",
 			"settings":
 			{
@@ -134,10 +152,73 @@
 			}
 		},
 		{
+			"file": "include/ORBextractor.h",
+			"settings":
+			{
+				"buffer_size": 3208,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/ORBextractor.cpp",
+			"settings":
+			{
+				"buffer_size": 46966,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "include/LocalMapping.h",
+			"settings":
+			{
+				"buffer_size": 2846,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/LocalMapping.cpp",
+			"settings":
+			{
+				"buffer_size": 29855,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "include/LoopClosing.h",
+			"settings":
+			{
+				"buffer_size": 3602,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/LoopClosing.cpp",
+			"settings":
+			{
+				"buffer_size": 31931,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "include/Frame.h",
 			"settings":
 			{
 				"buffer_size": 7745,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Frame.cpp",
+			"settings":
+			{
+				"buffer_size": 26149,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -170,6 +251,24 @@
 			}
 		},
 		{
+			"file": "include/Viewer.h",
+			"settings":
+			{
+				"buffer_size": 2035,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Viewer.cpp",
+			"settings":
+			{
+				"buffer_size": 7402,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "include/KeyFrame.h",
 			"settings":
 			{
@@ -188,24 +287,6 @@
 			}
 		},
 		{
-			"file": "include/LocalMapping.h",
-			"settings":
-			{
-				"buffer_size": 2846,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "include/LoopClosing.h",
-			"settings":
-			{
-				"buffer_size": 3602,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "include/MapPoint.h",
 			"settings":
 			{
@@ -219,15 +300,6 @@
 			"settings":
 			{
 				"buffer_size": 2530,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "include/ORBextractor.h",
-			"settings":
-			{
-				"buffer_size": 3208,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -260,15 +332,6 @@
 			}
 		},
 		{
-			"file": "include/Viewer.h",
-			"settings":
-			{
-				"buffer_size": 2035,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "src/Converter.cpp",
 			"settings":
 			{
@@ -278,46 +341,10 @@
 			}
 		},
 		{
-			"file": "src/Frame.cpp",
-			"settings":
-			{
-				"buffer_size": 26073,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/Initializer.cpp",
-			"settings":
-			{
-				"buffer_size": 34948,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "src/KeyFrame.cpp",
 			"settings":
 			{
 				"buffer_size": 23654,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/LocalMapping.cpp",
-			"settings":
-			{
-				"buffer_size": 29855,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/LoopClosing.cpp",
-			"settings":
-			{
-				"buffer_size": 31931,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -336,15 +363,6 @@
 			"settings":
 			{
 				"buffer_size": 48298,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/ORBextractor.cpp",
-			"settings":
-			{
-				"buffer_size": 46830,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -372,15 +390,6 @@
 			"settings":
 			{
 				"buffer_size": 12770,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/Viewer.cpp",
-			"settings":
-			{
-				"buffer_size": 7402,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -456,16 +465,6 @@
 			{
 				"buffer_size": 2530,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Searching 393 files for \"EXPORT\" (case sensitive, whole word)\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/DBoW2/DBoW2/BowVector.h:\n   29  \n   30  /// L-norms for normalization\n   31: EXPORT typedef enum LNorm\n   32  {\n   33    L1,\n   ..\n   36  \n   37  /// Weighting type\n   38: EXPORT typedef enum WeightingType\n   39  {\n   40    TF_IDF,\n   ..\n   45  \n   46  /// Scoring type\n   47: EXPORT typedef enum ScoringType\n   48  {\n   49    L1_NORM,\n   ..\n   57  /// Vector of words to represent images\n   58  /// stl的map结构，key为wordId，value为tfidf中的tf\n   59: class EXPORT BowVector: \n   60  \tpublic std::map<WordId, WordValue>\n   61  {\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/DBoW2/DBoW2/FClass.h:\n   25   * (TemplatedVocabulary, TemplatedDatabase, ...)\n   26   */\n   27: class EXPORT FClass\n   28  {\n   29    class TDescriptor;\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/DBoW2/DBoW2/FeatureVector.h:\n   21  \n   22  /// Vector of nodes with indexes of local features\n   23: class EXPORT FeatureVector: \n   24    public std::map<NodeId, std::vector<unsigned int> >\n   25  {\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/DBoW2/DBoW2/FORB.h:\n   22  \n   23  /// Functions to manipulate ORB descriptors\n   24: class EXPORT FORB : protected FClass\n   25  {\n   26  public:\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/DBoW2/DBoW2/ScoringObject.h:\n   18  \n   19  /// Base class of scoring functions\n   20: class EXPORT GeneralScoring \n   21  {\n   22  public:\n   ..\n   74    \n   75  /// L1 Scoring object\n   76: class EXPORT __SCORING_CLASS(L1Scoring, true, L1);\n   77  \n   78  /// L2 Scoring object\n   79: class EXPORT __SCORING_CLASS(L2Scoring, true, L2);\n   80  \n   81  /// Chi square Scoring object\n   82: class EXPORT __SCORING_CLASS(ChiSquareScoring, true, L1);\n   83  \n   84  /// KL divergence Scoring object\n   85: class EXPORT __SCORING_CLASS(KLScoring, true, L1);\n   86  \n   87  /// Bhattacharyya Scoring object\n   88: class EXPORT __SCORING_CLASS(BhattacharyyaScoring, true, L1);\n   89  \n   90  /// Dot product Scoring object\n   91: class EXPORT __SCORING_CLASS(DotProductScoring, false, L1);\n   92  \n   93  #undef __SCORING_CLASS\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h:\n   44  template<class TDescriptor, class F>\n   45  /// Generic Vocabulary\n   46: class EXPORT TemplatedVocabulary \n   47  {\n   48  public:\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/DBoW2/DUtils/config.h:\n    7    #endif\n    8    #ifdef DBoW2_EXPORTS\n    9:     #define EXPORT __declspec(dllexport)\n   10    #else\n   11:     #define EXPORT __declspec(dllimport) \n   12    #endif\n   13  #else\n   14:   #define EXPORT \n   15  #endif\n   16  \n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/DBoW2/DUtils/Random.h:\n   21  \n   22  /// Functions to generate pseudo-random numbers\n   23: class EXPORT Random\n   24  {\n   25  public:\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/DBoW2/DUtils/Timestamp.h:\n   20  \n   21  /// Timestamp\n   22: class EXPORT Timestamp\n   23  {\n   24  public:\n\n/home/zmy/project_ws/ORB-SLAM2/Vocabulary/ORBvoc.txt:\n    File too large, skipping\n\n20 matches across 9 files\n\n\nSearching 393 files for \"F\" (case sensitive, whole word)\n\n/home/zmy/project_ws/ORB-SLAM2/build/mono_kitti:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/build/rgbd_tum:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/build/stereo_EuRoC:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/build/stereo_kitti:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/build/CMakeFiles/feature_tests.bin:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/build/CMakeFiles/3.5.1/CompilerIdC/a.out:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c:\n  461  #ifdef COMPILER_VERSION_MAJOR\n  462  char const info_version[] = {\n  463:   'I', 'N', 'F', 'O', ':',\n  464    'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',\n  465    COMPILER_VERSION_MAJOR,\n  ...\n  479  #ifdef SIMULATE_VERSION_MAJOR\n  480  char const info_simulate_version[] = {\n  481:   'I', 'N', 'F', 'O', ':',\n  482    's','i','m','u','l','a','t','e','_','v','e','r','s','i','o','n','[',\n  483    SIMULATE_VERSION_MAJOR,\n\n/home/zmy/project_ws/ORB-SLAM2/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:\n  456  #ifdef COMPILER_VERSION_MAJOR\n  457  char const info_version[] = {\n  458:   'I', 'N', 'F', 'O', ':',\n  459    'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',\n  460    COMPILER_VERSION_MAJOR,\n  ...\n  474  #ifdef SIMULATE_VERSION_MAJOR\n  475  char const info_simulate_version[] = {\n  476:   'I', 'N', 'F', 'O', ':',\n  477    's','i','m','u','l','a','t','e','_','v','e','r','s','i','o','n','[',\n  478    SIMULATE_VERSION_MAJOR,\n\n/home/zmy/project_ws/ORB-SLAM2/Examples/Monocular/mono_tum:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/Examples/ROS/ORB_SLAM2/build/CMakeFiles/feature_tests.bin:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/Examples/ROS/ORB_SLAM2/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/Examples/ROS/ORB_SLAM2/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/Examples/ROS/ORB_SLAM2/build/CMakeFiles/3.5.1/CompilerIdC/a.out:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/Examples/ROS/ORB_SLAM2/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c:\n  461  #ifdef COMPILER_VERSION_MAJOR\n  462  char const info_version[] = {\n  463:   'I', 'N', 'F', 'O', ':',\n  464    'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',\n  465    COMPILER_VERSION_MAJOR,\n  ...\n  479  #ifdef SIMULATE_VERSION_MAJOR\n  480  char const info_simulate_version[] = {\n  481:   'I', 'N', 'F', 'O', ':',\n  482    's','i','m','u','l','a','t','e','_','v','e','r','s','i','o','n','[',\n  483    SIMULATE_VERSION_MAJOR,\n\n/home/zmy/project_ws/ORB-SLAM2/Examples/ROS/ORB_SLAM2/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/Examples/ROS/ORB_SLAM2/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:\n  456  #ifdef COMPILER_VERSION_MAJOR\n  457  char const info_version[] = {\n  458:   'I', 'N', 'F', 'O', ':',\n  459    'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',\n  460    COMPILER_VERSION_MAJOR,\n  ...\n  474  #ifdef SIMULATE_VERSION_MAJOR\n  475  char const info_simulate_version[] = {\n  476:   'I', 'N', 'F', 'O', ':',\n  477    's','i','m','u','l','a','t','e','_','v','e','r','s','i','o','n','[',\n  478    SIMULATE_VERSION_MAJOR,\n\n/home/zmy/project_ws/ORB-SLAM2/include/KeyFrame.h:\n   48  {\n   49  public:\n   50:     KeyFrame(Frame &F, Map* pMap, KeyFrameDatabase* pKFDB);\n   51  \n   52      // Pose functions\n\n/home/zmy/project_ws/ORB-SLAM2/include/KeyFrameDatabase.h:\n   56  \n   57     // Relocalization\n   58:    std::vector<KeyFrame*> DetectRelocalizationCandidates(Frame* F);\n   59  \n   60  protected:\n\n/home/zmy/project_ws/ORB-SLAM2/include/ORBmatcher.h:\n   53       * 并标记了这些点是否在当前帧的视野中，即mbTrackInView \\n\n   54       * 对这些MapPoints，在其投影点附近根据描述子距离选取匹配，以及最终的方向投票机制进行剔除\n   55:      * @param  F           当前帧\n   56       * @param  vpMapPoints Local MapPoints\n   57       * @param  th          阈值\n   ..\n   59       * @see SearchLocalPoints() isInFrustum()\n   60       */\n   61:     int SearchByProjection(Frame &F, const std::vector<MapPoint*> &vpMapPoints, const float th=3);\n   62  \n   63      // Project MapPoints tracked in last frame into the current frame and search matches.\n   ..\n   98       * 通过距离阈值、比例阈值和角度投票进行剔除误匹配\n   99       * @param  pKF               KeyFrame\n  100:      * @param  F                 Current Frame\n  101       * @param  vpMapPointMatches F中MapPoints对应的匹配，NULL表示未匹配\n  102       * @return                   成功匹配的数量\n  103       */\n  104:     int SearchByBoW(KeyFrame *pKF, Frame &F, std::vector<MapPoint*> &vpMapPointMatches);\n  105      int SearchByBoW(KeyFrame *pKF1, KeyFrame* pKF2, std::vector<MapPoint*> &vpMatches12);\n  106  \n\n/home/zmy/project_ws/ORB-SLAM2/include/PnPsolver.h:\n   61  class PnPsolver {\n   62   public:\n   63:   PnPsolver(const Frame &F, const vector<MapPoint*> &vpMapPointMatches);\n   64  \n   65    ~PnPsolver();\n\n/home/zmy/project_ws/ORB-SLAM2/src/Initializer.cpp:\n  126      // 步骤3：调用多线程分别用于计算fundamental matrix和homography\n  127      vector<bool> vbMatchesInliersH, vbMatchesInliersF;\n  128:     float SH, SF; // score for H and F\n  129:     cv::Mat H, F; // H and F\n  130  \n  131      // ref是引用的功能:http://en.cppreference.com/w/cpp/utility/functional/ref\n  ...\n  133      thread threadH(&Initializer::FindHomography,this,ref(vbMatchesInliersH), ref(SH), ref(H));\n  134      // 计算fundamental matrix并打分\n  135:     thread threadF(&Initializer::FindFundamental,this,ref(vbMatchesInliersF), ref(SF), ref(F));\n  136  \n  137      // Wait until both threads have finished\n  ...\n  150          return ReconstructH(vbMatchesInliersH,H,mK,R21,t21,vP3D,vbTriangulated,1.0,50);\n  151      else //if(pF_HF>0.6)\n  152:         return ReconstructF(vbMatchesInliersF,F,mK,R21,t21,vP3D,vbTriangulated,1.0,50);\n  153  \n  154      return false;\n  ...\n  591   * \n  592   * 度量重构\n  593:  * 1. 由Fundamental矩阵结合相机内参K，得到Essential矩阵: \\f$ E = k'^T F k \\f$\n  594   * 2. SVD分解得到R t\n  595   * 3. 进行cheirality check, 从四个解中找出最合适的解\n\n/home/zmy/project_ws/ORB-SLAM2/src/KeyFrame.cpp:\n   29  long unsigned int KeyFrame::nNextId=0;\n   30  \n   31: KeyFrame::KeyFrame(Frame &F, Map *pMap, KeyFrameDatabase *pKFDB):\n   32:     mnFrameId(F.mnId),  mTimeStamp(F.mTimeStamp), mnGridCols(FRAME_GRID_COLS), mnGridRows(FRAME_GRID_ROWS),\n   33:     mfGridElementWidthInv(F.mfGridElementWidthInv), mfGridElementHeightInv(F.mfGridElementHeightInv),\n   34      mnTrackReferenceForFrame(0), mnFuseTargetForKF(0), mnBALocalForKF(0), mnBAFixedForKF(0),\n   35      mnLoopQuery(0), mnLoopWords(0), mnRelocQuery(0), mnRelocWords(0), mnBAGlobalForKF(0),\n   36:     fx(F.fx), fy(F.fy), cx(F.cx), cy(F.cy), invfx(F.invfx), invfy(F.invfy),\n   37:     mbf(F.mbf), mb(F.mb), mThDepth(F.mThDepth), N(F.N), mvKeys(F.mvKeys), mvKeysUn(F.mvKeysUn),\n   38:     mvuRight(F.mvuRight), mvDepth(F.mvDepth), mDescriptors(F.mDescriptors.clone()),\n   39:     mBowVec(F.mBowVec), mFeatVec(F.mFeatVec), mnScaleLevels(F.mnScaleLevels), mfScaleFactor(F.mfScaleFactor),\n   40:     mfLogScaleFactor(F.mfLogScaleFactor), mvScaleFactors(F.mvScaleFactors), mvLevelSigma2(F.mvLevelSigma2),\n   41:     mvInvLevelSigma2(F.mvInvLevelSigma2), mnMinX(F.mnMinX), mnMinY(F.mnMinY), mnMaxX(F.mnMaxX),\n   42:     mnMaxY(F.mnMaxY), mK(F.mK), mvpMapPoints(F.mvpMapPoints), mpKeyFrameDB(pKFDB),\n   43:     mpORBvocabulary(F.mpORBvocabulary), mbFirstConnection(true), mpParent(NULL), mbNotErase(false),\n   44:     mbToBeErased(false), mbBad(false), mHalfBaseline(F.mb/2), mpMap(pMap)\n   45  {\n   46      mnId=nNextId++;\n   ..\n   51          mGrid[i].resize(mnGridRows);\n   52          for(int j=0; j<mnGridRows; j++)\n   53:             mGrid[i][j] = F.mGrid[i][j];\n   54      }\n   55  \n   56:     SetPose(F.mTcw);\n   57  }\n   58  \n   ..\n  615                      {\n  616                      // 如果该帧的子节点和父节点（祖孙节点）之间存在连接关系（共视）\n  617:                     // 举例：B-->A（B的父节点是A） C-->B（C的父节点是B） D--C（D与C相连） E--C（E与C相连） F--C（F与C相连） D-->A（D的父节点是A） E-->A（E的父节点是A）\n  618                      //      现在B挂了，于是C在与自己相连的D、E、F节点中找到父节点指向A的D\n  619                      //      此过程就是为了找到可以替换B的那个节点。\n\n/home/zmy/project_ws/ORB-SLAM2/src/KeyFrameDatabase.cpp:\n  233   * 3. 将与关键帧相连（权值最高）的前十个关键帧归为一组，计算累计得分\n  234   * 4. 只返回累计得分较高的组中分数最高的关键帧\n  235:  * @param F 需要重定位的帧\n  236   * @return  相似的关键帧\n  237   * @see III-E Bags of Words Place Recognition\n  238   */\n  239: vector<KeyFrame*> KeyFrameDatabase::DetectRelocalizationCandidates(Frame *F)\n  240  {\n  241      // 相对于关键帧的闭环检测DetectLoopCandidates，重定位检测中没法获得相连的关键帧\n  ...\n  248  \n  249          // words是检测图像是否匹配的枢纽，遍历该pKF的每一个word\n  250:         for(DBoW2::BowVector::const_iterator vit=F->mBowVec.begin(), vend=F->mBowVec.end(); vit != vend; vit++)\n  251          {\n  252              // 提取所有包含该word的KeyFrame\n  ...\n  256              {\n  257                  KeyFrame* pKFi=*lit;\n  258:                 if(pKFi->mnRelocQuery!=F->mnId)// pKFi还没有标记为pKF的候选帧\n  259                  {\n  260                      pKFi->mnRelocWords=0;\n  261:                     pKFi->mnRelocQuery=F->mnId;\n  262                      lKFsSharingWords.push_back(pKFi);\n  263                  }\n  ...\n  294          {\n  295              nscores++;// 这个变量后面没有用到\n  296:             float si = mpVoc->score(F->mBowVec,pKFi->mBowVec);\n  297              pKFi->mRelocScore=si;\n  298              lScoreAndMatch.push_back(make_pair(si,pKFi));\n  ...\n  321          {\n  322              KeyFrame* pKF2 = *vit;\n  323:             if(pKF2->mnRelocQuery!=F->mnId)\n  324                  continue;\n  325  \n\n/home/zmy/project_ws/ORB-SLAM2/src/ORBmatcher.cpp:\n   55   * 并标记了这些点是否在当前帧的视野中，即mbTrackInView \\n\n   56   * 对这些MapPoints，在其投影点附近根据描述子距离选取匹配，以及最终的方向投票机制进行剔除\n   57:  * @param  F           当前帧\n   58   * @param  vpMapPoints Local MapPoints\n   59   * @param  th          搜索范围因子：r = r * th * ScaleFactor\n   ..\n   61   * @see SearchLocalPoints() isInFrustum()\n   62   */\n   63: int ORBmatcher::SearchByProjection(Frame &F, const vector<MapPoint*> &vpMapPoints, const float th)\n   64  {\n   65      int nmatches=0;\n   ..\n   89  \n   90          // (pMP->mTrackProjX, pMP->mTrackProjY)：图像特征点坐标\n   91:         // r*F.mvScaleFactors[nPredictedLevel]：搜索范围\n   92          // nPredictedLevel-1：miniLevel\n   93          // nPredictedLevel：maxLevel\n   94          // step3：在2D投影点附近一定范围内搜索属于miniLevel~maxLevel层的特征点 ---> vIndices\n   95          const vector<size_t> vIndices =\n   96:                 F.GetFeaturesInArea(pMP->mTrackProjX,pMP->mTrackProjY,r*F.mvScaleFactors[nPredictedLevel],nPredictedLevel-1,nPredictedLevel);\n   97  \n   98          if(vIndices.empty())\n   ..\n  114  \n  115              // 如果Frame中的该兴趣点已经有对应的MapPoint了，则退出该次循环\n  116:             if(F.mvpMapPoints[idx])\n  117:                 if(F.mvpMapPoints[idx]->Observations()>0)\n  118                      continue;\n  119  \n  120:             if(F.mvuRight[idx]>0)\n  121              {\n  122:                 const float er = fabs(pMP->mTrackProjXR-F.mvuRight[idx]);\n  123:                 if(er>r*F.mvScaleFactors[nPredictedLevel])\n  124                      continue;\n  125              }\n  126  \n  127:             const cv::Mat &d = F.mDescriptors.row(idx);\n  128  \n  129              const int dist = DescriptorDistance(MPdescriptor,d);\n  ...\n  135                  bestDist=dist;\n  136                  bestLevel2 = bestLevel;\n  137:                 bestLevel = F.mvKeysUn[idx].octave;\n  138                  bestIdx=idx;\n  139              }\n  140              else if(dist<bestDist2)\n  141              {\n  142:                 bestLevel2 = F.mvKeysUn[idx].octave;\n  143                  bestDist2=dist;\n  144              }\n  ...\n  151                  continue;\n  152  \n  153:             F.mvpMapPoints[bestIdx]=pMP; // 为Frame中的兴趣点增加对应的MapPoint\n  154              nmatches++;\n  155          }\n  ...\n  204   * 通过距离阈值、比例阈值和角度投票进行剔除误匹配\n  205   * @param  pKF               KeyFrame\n  206:  * @param  F                 Current Frame\n  207   * @param  vpMapPointMatches F中MapPoints对应的匹配，NULL表示未匹配\n  208   * @return                   成功匹配的数量\n  209   */\n  210: int ORBmatcher::SearchByBoW(KeyFrame* pKF,Frame &F, vector<MapPoint*> &vpMapPointMatches)\n  211  {\n  212      const vector<MapPoint*> vpMapPointsKF = pKF->GetMapPointMatches();\n  213  \n  214:     vpMapPointMatches = vector<MapPoint*>(F.N,static_cast<MapPoint*>(NULL));\n  215  \n  216      const DBoW2::FeatureVector &vFeatVecKF = pKF->mFeatVec;\n  ...\n  226      // 将属于同一节点(特定层)的ORB特征进行匹配\n  227      DBoW2::FeatureVector::const_iterator KFit = vFeatVecKF.begin();\n  228:     DBoW2::FeatureVector::const_iterator Fit = F.mFeatVec.begin();\n  229      DBoW2::FeatureVector::const_iterator KFend = vFeatVecKF.end();\n  230:     DBoW2::FeatureVector::const_iterator Fend = F.mFeatVec.end();\n  231  \n  232      while(KFit != KFend && Fit != Fend)\n  ...\n  264                          continue;\n  265  \n  266:                     const cv::Mat &dF = F.mDescriptors.row(realIdxF); // 取出F中该特征对应的描述子\n  267  \n  268                      const int dist =  DescriptorDistance(dKF,dF); // 求描述子的距离\n  ...\n  297                              // angle：每个特征点在提取描述子时的旋转主方向角度，如果图像旋转了，这个角度将发生改变\n  298                              // 所有的特征点的角度变化应该是一致的，通过直方图统计得到最准确的角度变化值\n  299:                             float rot = kp.angle-F.mvKeys[bestIdxF].angle;// 该特征点的角度变化值\n  300                              if(rot<0.0)\n  301                                  rot+=360.0f;\n  ...\n  321          else\n  322          {\n  323:             Fit = F.mFeatVec.lower_bound(KFit->first);\n  324          }\n  325      }\n  ...\n  535          }\n  536  \n  537:         // 详见SearchByBoW(KeyFrame* pKF,Frame &F, vector<MapPoint*> &vpMapPointMatches)函数步骤4\n  538          if(bestDist<=TH_LOW)\n  539          {\n  ...\n  613  int ORBmatcher::SearchByBoW(KeyFrame *pKF1, KeyFrame *pKF2, vector<MapPoint *> &vpMatches12)\n  614  {\n  615:     // 详细注释可参见：SearchByBoW(KeyFrame* pKF,Frame &F, vector<MapPoint*> &vpMapPointMatches)\n  616  \n  617      const vector<cv::KeyPoint> &vKeysUn1 = pKF1->mvKeysUn;\n  ...\n  692  \n  693                  // 步骤4：根据阈值 和 角度投票剔除误匹配\n  694:                 // 详见SearchByBoW(KeyFrame* pKF,Frame &F, vector<MapPoint*> &vpMapPointMatches)函数步骤4\n  695                  if(bestDist1<TH_LOW)\n  696                  {\n  ...\n  892                  // 依次检测，判断是否满足对极几何约束，满足约束就是匹配的特征点\n  893                  \n  894:                 // 详见SearchByBoW(KeyFrame* pKF,Frame &F, vector<MapPoint*> &vpMapPointMatches)函数步骤4\n  895                  if(bestIdx2>=0)\n  896                  {\n  ...\n 1623                  }\n 1624  \n 1625:                 // 详见SearchByBoW(KeyFrame* pKF,Frame &F, vector<MapPoint*> &vpMapPointMatches)函数步骤4\n 1626                  if(bestDist<=TH_HIGH)\n 1627                  {\n ....\n 1759                      nmatches++;\n 1760  \n 1761:                     // 详见SearchByBoW(KeyFrame* pKF,Frame &F, vector<MapPoint*> &vpMapPointMatches)函数步骤4\n 1762                      if(mbCheckOrientation)\n 1763                      {\n\n/home/zmy/project_ws/ORB-SLAM2/src/PnPsolver.cpp:\n  102  // us表示图像坐标系下的2D点坐标\n  103  // alphas为真实3D点用4个虚拟控制点表达时的系数\n  104: PnPsolver::PnPsolver(const Frame &F, const vector<MapPoint*> &vpMapPointMatches):\n  105      pws(0), us(0), alphas(0), pcs(0), maximum_number_of_correspondences(0), number_of_correspondences(0), mnInliersi(0),\n  106      mnIterations(0), mnBestInliers(0), N(0)\n  ...\n  115      // 根据点数初始化容器的大小\n  116      mvpMapPointMatches = vpMapPointMatches;\n  117:     mvP2D.reserve(F.mvpMapPoints.size());\n  118:     mvSigma2.reserve(F.mvpMapPoints.size());\n  119:     mvP3Dw.reserve(F.mvpMapPoints.size());\n  120:     mvKeyPointIndices.reserve(F.mvpMapPoints.size());\n  121:     mvAllIndices.reserve(F.mvpMapPoints.size());\n  122  \n  123      int idx=0;\n  ...\n  130              if(!pMP->isBad())\n  131              {\n  132:                 const cv::KeyPoint &kp = F.mvKeysUn[i];//得到2维特征点, 将KeyPoint类型变为Point2f\n  133  \n  134                  mvP2D.push_back(kp.pt);//存放到mvP2D容器\n  135:                 mvSigma2.push_back(F.mvLevelSigma2[kp.octave]);//记录特征点是在哪一层提取出来的\n  136  \n  137                  cv::Mat Pos = pMP->GetWorldPos();//世界坐标系下的3D点\n  ...\n  147  \n  148      // Set camera calibration parameters\n  149:     fu = F.fx;\n  150:     fv = F.fy;\n  151:     uc = F.cx;\n  152:     vc = F.cy;\n  153  \n  154      SetRansacParameters();\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/DBoW2/build/CMakeFiles/feature_tests.bin:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/DBoW2/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/DBoW2/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/DBoW2/build/CMakeFiles/3.5.1/CompilerIdC/a.out:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/DBoW2/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c:\n  461  #ifdef COMPILER_VERSION_MAJOR\n  462  char const info_version[] = {\n  463:   'I', 'N', 'F', 'O', ':',\n  464    'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',\n  465    COMPILER_VERSION_MAJOR,\n  ...\n  479  #ifdef SIMULATE_VERSION_MAJOR\n  480  char const info_simulate_version[] = {\n  481:   'I', 'N', 'F', 'O', ':',\n  482    's','i','m','u','l','a','t','e','_','v','e','r','s','i','o','n','[',\n  483    SIMULATE_VERSION_MAJOR,\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/DBoW2/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/DBoW2/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:\n  456  #ifdef COMPILER_VERSION_MAJOR\n  457  char const info_version[] = {\n  458:   'I', 'N', 'F', 'O', ':',\n  459    'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',\n  460    COMPILER_VERSION_MAJOR,\n  ...\n  474  #ifdef SIMULATE_VERSION_MAJOR\n  475  char const info_simulate_version[] = {\n  476:   'I', 'N', 'F', 'O', ':',\n  477    's','i','m','u','l','a','t','e','_','v','e','r','s','i','o','n','[',\n  478    SIMULATE_VERSION_MAJOR,\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/DBoW2/DBoW2/FClass.h:\n   22  /**\n   23   * This class must be inherited. Derived classes can be used as the\n   24:  * parameter F when creating Templated structures\n   25   * (TemplatedVocabulary, TemplatedDatabase, ...)\n   26   */\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h:\n   41  \n   42  /// @param TDescriptor class of descriptor\n   43: /// @param F class of descriptor functions\n   44: template<class TDescriptor, class F>\n   45  /// Generic Vocabulary\n   46  class EXPORT TemplatedVocabulary \n   ..\n   74     * @param voc\n   75     */\n   76:   TemplatedVocabulary(const TemplatedVocabulary<TDescriptor, F> &voc);\n   77    \n   78    /**\n   ..\n   87     * @return reference to this vocabulary\n   88     */\n   89:   TemplatedVocabulary<TDescriptor, F>& operator=(\n   90:     const TemplatedVocabulary<TDescriptor, F> &voc);\n   91    \n   92    /** \n   ..\n  446  // --------------------------------------------------------------------------\n  447  \n  448: template<class TDescriptor, class F>\n  449: TemplatedVocabulary<TDescriptor,F>::TemplatedVocabulary\n  450    (int k, int L, WeightingType weighting, ScoringType scoring)\n  451    : m_k(k), m_L(L), m_weighting(weighting), m_scoring(scoring),\n  ...\n  457  // --------------------------------------------------------------------------\n  458  \n  459: template<class TDescriptor, class F>\n  460: TemplatedVocabulary<TDescriptor,F>::TemplatedVocabulary\n  461    (const std::string &filename): m_scoring_object(NULL)\n  462  {\n  ...\n  466  // --------------------------------------------------------------------------\n  467  \n  468: template<class TDescriptor, class F>\n  469: TemplatedVocabulary<TDescriptor,F>::TemplatedVocabulary\n  470    (const char *filename): m_scoring_object(NULL)\n  471  {\n  ...\n  475  // --------------------------------------------------------------------------\n  476  \n  477: template<class TDescriptor, class F>\n  478: void TemplatedVocabulary<TDescriptor,F>::createScoringObject()\n  479  {\n  480    delete m_scoring_object;\n  ...\n  512  // --------------------------------------------------------------------------\n  513  \n  514: template<class TDescriptor, class F>\n  515: void TemplatedVocabulary<TDescriptor,F>::setScoringType(ScoringType type)\n  516  {\n  517    m_scoring = type;\n  ...\n  521  // --------------------------------------------------------------------------\n  522  \n  523: template<class TDescriptor, class F>\n  524: void TemplatedVocabulary<TDescriptor,F>::setWeightingType(WeightingType type)\n  525  {\n  526    this->m_weighting = type;\n  ...\n  529  // --------------------------------------------------------------------------\n  530  \n  531: template<class TDescriptor, class F>\n  532: TemplatedVocabulary<TDescriptor,F>::TemplatedVocabulary(\n  533:   const TemplatedVocabulary<TDescriptor, F> &voc)\n  534    : m_scoring_object(NULL)\n  535  {\n  ...\n  539  // --------------------------------------------------------------------------\n  540  \n  541: template<class TDescriptor, class F>\n  542: TemplatedVocabulary<TDescriptor,F>::~TemplatedVocabulary()\n  543  {\n  544    delete m_scoring_object;\n  ...\n  547  // --------------------------------------------------------------------------\n  548  \n  549: template<class TDescriptor, class F>\n  550: TemplatedVocabulary<TDescriptor, F>& \n  551: TemplatedVocabulary<TDescriptor,F>::operator=\n  552:   (const TemplatedVocabulary<TDescriptor, F> &voc)\n  553  {  \n  554    this->m_k = voc.m_k;\n  ...\n  570  // --------------------------------------------------------------------------\n  571  \n  572: template<class TDescriptor, class F>\n  573: void TemplatedVocabulary<TDescriptor,F>::create(\n  574    const std::vector<std::vector<TDescriptor> > &training_features)\n  575  {\n  ...\n  604  // --------------------------------------------------------------------------\n  605  \n  606: template<class TDescriptor, class F>\n  607: void TemplatedVocabulary<TDescriptor,F>::create(\n  608    const std::vector<std::vector<TDescriptor> > &training_features,\n  609    int k, int L)\n  ...\n  617  // --------------------------------------------------------------------------\n  618  \n  619: template<class TDescriptor, class F>\n  620: void TemplatedVocabulary<TDescriptor,F>::create(\n  621    const std::vector<std::vector<TDescriptor> > &training_features,\n  622    int k, int L, WeightingType weighting, ScoringType scoring)\n  ...\n  633  // --------------------------------------------------------------------------\n  634  \n  635: template<class TDescriptor, class F>\n  636: void TemplatedVocabulary<TDescriptor,F>::getFeatures(\n  637    const vector<vector<TDescriptor> > &training_features, \n  638    vector<pDescriptor> &features) const\n  ...\n  654  // --------------------------------------------------------------------------\n  655  \n  656: template<class TDescriptor, class F>\n  657: void TemplatedVocabulary<TDescriptor,F>::HKmeansStep(NodeId parent_id, \n  658    const vector<pDescriptor> &descriptors, int current_level)\n  659  {\n  ...\n  729            \n  730            \n  731:           F::meanValue(cluster_descriptors, clusters[c]);\n  732          }\n  733          \n  ...\n  747        for(fit = descriptors.begin(); fit != descriptors.end(); ++fit)//, ++d)\n  748        {\n  749:         double best_dist = F::distance(*(*fit), clusters[0]);\n  750          unsigned int icluster = 0;\n  751          \n  752          for(unsigned int c = 1; c < clusters.size(); ++c)\n  753          {\n  754:           double dist = F::distance(*(*fit), clusters[c]);\n  755            if(dist < best_dist)\n  756            {\n  ...\n  837  // --------------------------------------------------------------------------\n  838  \n  839: template<class TDescriptor, class F>\n  840: void TemplatedVocabulary<TDescriptor, F>::initiateClusters\n  841    (const vector<pDescriptor> &descriptors, vector<TDescriptor> &clusters) const\n  842  {\n  ...\n  846  // --------------------------------------------------------------------------\n  847  \n  848: template<class TDescriptor, class F>\n  849: void TemplatedVocabulary<TDescriptor,F>::initiateClustersKMpp(\n  850    const vector<pDescriptor> &pfeatures, vector<TDescriptor> &clusters) const\n  851  {\n  ...\n  888    for(fit = pfeatures.begin(); fit != pfeatures.end(); ++fit, ++dit)\n  889    {\n  890:     *dit = F::distance(*(*fit), clusters.back());\n  891    }  \n  892  \n  ...\n  899        if(*dit > 0)\n  900        {\n  901:         double dist = F::distance(*(*fit), clusters.back());\n  902          if(dist < *dit) *dit = dist; // 仅保存最近的距离，即与最近聚类中心的距离\n  903        }\n  ...\n  939  // --------------------------------------------------------------------------\n  940  \n  941: template<class TDescriptor, class F>\n  942: void TemplatedVocabulary<TDescriptor,F>::createWords()\n  943  {\n  944    m_words.resize(0);\n  ...\n  964  // --------------------------------------------------------------------------\n  965  \n  966: template<class TDescriptor, class F>\n  967: void TemplatedVocabulary<TDescriptor,F>::setNodeWeights\n  968    (const vector<vector<TDescriptor> > &training_features)\n  969  {\n  ...\n 1022  // --------------------------------------------------------------------------\n 1023  \n 1024: template<class TDescriptor, class F>\n 1025: inline unsigned int TemplatedVocabulary<TDescriptor,F>::size() const\n 1026  {\n 1027    return m_words.size();\n ....\n 1030  // --------------------------------------------------------------------------\n 1031  \n 1032: template<class TDescriptor, class F>\n 1033: inline bool TemplatedVocabulary<TDescriptor,F>::empty() const\n 1034  {\n 1035    return m_words.empty();\n ....\n 1038  // --------------------------------------------------------------------------\n 1039  \n 1040: template<class TDescriptor, class F>\n 1041: float TemplatedVocabulary<TDescriptor,F>::getEffectiveLevels() const\n 1042  {\n 1043    long sum = 0;\n ....\n 1055  // --------------------------------------------------------------------------\n 1056  \n 1057: template<class TDescriptor, class F>\n 1058: TDescriptor TemplatedVocabulary<TDescriptor,F>::getWord(WordId wid) const\n 1059  {\n 1060    return m_words[wid]->descriptor;\n ....\n 1063  // --------------------------------------------------------------------------\n 1064  \n 1065: template<class TDescriptor, class F>\n 1066: WordValue TemplatedVocabulary<TDescriptor, F>::getWordWeight(WordId wid) const\n 1067  {\n 1068    return m_words[wid]->weight;\n ....\n 1071  // --------------------------------------------------------------------------\n 1072  \n 1073: template<class TDescriptor, class F>\n 1074: WordId TemplatedVocabulary<TDescriptor, F>::transform\n 1075    (const TDescriptor& feature) const\n 1076  {\n ....\n 1087  // --------------------------------------------------------------------------\n 1088  \n 1089: template<class TDescriptor, class F>\n 1090: void TemplatedVocabulary<TDescriptor,F>::transform(\n 1091    const std::vector<TDescriptor>& features, BowVector &v) const\n 1092  {\n ....\n 1148  // --------------------------------------------------------------------------\n 1149  \n 1150: template<class TDescriptor, class F> \n 1151: void TemplatedVocabulary<TDescriptor,F>::transform(\n 1152    const std::vector<TDescriptor>& features,\n 1153    BowVector &v, FeatureVector &fv, int levelsup) const\n ....\n 1220  // --------------------------------------------------------------------------\n 1221  \n 1222: template<class TDescriptor, class F> \n 1223: inline double TemplatedVocabulary<TDescriptor,F>::score\n 1224    (const BowVector &v1, const BowVector &v2) const\n 1225  {\n ....\n 1229  // --------------------------------------------------------------------------\n 1230  \n 1231: template<class TDescriptor, class F>\n 1232: void TemplatedVocabulary<TDescriptor,F>::transform\n 1233    (const TDescriptor &feature, WordId &id) const\n 1234  {\n ....\n 1239  // --------------------------------------------------------------------------\n 1240  \n 1241: template<class TDescriptor, class F>\n 1242: void TemplatedVocabulary<TDescriptor,F>::transform(const TDescriptor &feature, \n 1243    WordId &word_id, WordValue &weight, NodeId *nid, int levelsup) const\n 1244  { \n ....\n 1260      final_id = nodes[0];\n 1261   \n 1262:     double best_d = F::distance(feature, m_nodes[final_id].descriptor);\n 1263  \n 1264      for(nit = nodes.begin() + 1; nit != nodes.end(); ++nit)\n 1265      {\n 1266        NodeId id = *nit;\n 1267:       double d = F::distance(feature, m_nodes[id].descriptor);\n 1268        if(d < best_d)\n 1269        {\n ....\n 1285  // --------------------------------------------------------------------------\n 1286  \n 1287: template<class TDescriptor, class F>\n 1288: NodeId TemplatedVocabulary<TDescriptor,F>::getParentNode\n 1289    (WordId wid, int levelsup) const\n 1290  {\n ....\n 1300  // --------------------------------------------------------------------------\n 1301  \n 1302: template<class TDescriptor, class F>\n 1303: void TemplatedVocabulary<TDescriptor,F>::getWordsFromNode\n 1304    (NodeId nid, std::vector<WordId> &words) const\n 1305  {\n ....\n 1341  // --------------------------------------------------------------------------\n 1342  \n 1343: template<class TDescriptor, class F>\n 1344: int TemplatedVocabulary<TDescriptor,F>::stopWords(double minWeight)\n 1345  {\n 1346    int c = 0;\n ....\n 1359  // --------------------------------------------------------------------------\n 1360  \n 1361: template<class TDescriptor, class F>\n 1362: bool TemplatedVocabulary<TDescriptor,F>::loadFromTextFile(const std::string &filename)\n 1363  {\n 1364      ifstream f;\n ....\n 1421  \n 1422          stringstream ssd;\n 1423:         for(int iD=0;iD<F::L;iD++) // F::L\n 1424          {\n 1425              string sElement;\n ....\n 1427              ssd << sElement << \" \";\n 1428  \t}\n 1429:         F::fromString(m_nodes[nid].descriptor, ssd.str());\n 1430  \n 1431          ssnode >> m_nodes[nid].weight;\n ....\n 1451  // --------------------------------------------------------------------------\n 1452  \n 1453: template<class TDescriptor, class F>\n 1454: void TemplatedVocabulary<TDescriptor,F>::saveToTextFile(const std::string &filename) const\n 1455  {\n 1456      fstream f;\n ....\n 1468              f << 0 << \" \";\n 1469  \n 1470:         f << F::toString(node.descriptor) << \" \" << (double)node.weight << endl;\n 1471      }\n 1472  \n ....\n 1476  // --------------------------------------------------------------------------\n 1477  \n 1478: template<class TDescriptor, class F>\n 1479: bool TemplatedVocabulary<TDescriptor,F>::loadFromBinaryFile(const std::string &filename) {\n 1480    fstream f;\n 1481    f.open(filename.c_str(), ios_base::in|ios::binary);\n ....\n 1504  \t//m_nodes[nid].parent = *(const int*)buf;\n 1505  \tm_nodes[m_nodes[nid].parent].children.push_back(nid);\n 1506: \tm_nodes[nid].descriptor = cv::Mat(1, F::L, CV_8U); //F::L\n 1507: \tmemcpy(m_nodes[nid].descriptor.data, buf+4, F::L); //F::L\n 1508: \tm_nodes[nid].weight = *(float*)(buf+4+F::L); // F::L\n 1509: \tif (buf[8+F::L]) { // is leaf //F::L\n 1510  \t  int wid = m_words.size();\n 1511  \t  m_words.resize(wid+1);\n ....\n 1526  // --------------------------------------------------------------------------\n 1527  \n 1528: template<class TDescriptor, class F>\n 1529: void TemplatedVocabulary<TDescriptor,F>::saveToBinaryFile(const std::string &filename) const {\n 1530    fstream f;\n 1531    f.open(filename.c_str(), ios_base::out|ios::binary);\n 1532    unsigned int nb_nodes = m_nodes.size();\n 1533    float _weight;\n 1534:   unsigned int size_node = sizeof(m_nodes[0].parent) + F::L*sizeof(char) + sizeof(_weight) + sizeof(bool); //F::L\n 1535    f.write((char*)&nb_nodes, sizeof(nb_nodes));\n 1536    f.write((char*)&size_node, sizeof(size_node));\n ....\n 1542  \tconst Node& node = m_nodes[i];\n 1543  \tf.write((char*)&node.parent, sizeof(node.parent));\n 1544: \tf.write((char*)node.descriptor.data, F::L);//F::L\n 1545  \t_weight = node.weight; f.write((char*)&_weight, sizeof(_weight));\n 1546  \tbool is_leaf = node.isLeaf(); f.write((char*)&is_leaf, sizeof(is_leaf)); // i put this one at the end for alignement....\n ....\n 1551  // --------------------------------------------------------------------------\n 1552  \n 1553: template<class TDescriptor, class F>\n 1554: void TemplatedVocabulary<TDescriptor,F>::save(const std::string &filename) const\n 1555  {\n 1556    cv::FileStorage fs(filename.c_str(), cv::FileStorage::WRITE);\n ....\n 1562  // --------------------------------------------------------------------------\n 1563  \n 1564: template<class TDescriptor, class F>\n 1565: void TemplatedVocabulary<TDescriptor,F>::load(const std::string &filename)\n 1566  {\n 1567    cv::FileStorage fs(filename.c_str(), cv::FileStorage::READ);\n ....\n 1573  // --------------------------------------------------------------------------\n 1574  \n 1575: template<class TDescriptor, class F>\n 1576: void TemplatedVocabulary<TDescriptor,F>::save(cv::FileStorage &f,\n 1577    const std::string &name) const\n 1578  {\n ....\n 1636        f << \"parentId\" << (int)pid;\n 1637        f << \"weight\" << (double)child.weight;\n 1638:       f << \"descriptor\" << F::toString(child.descriptor);\n 1639        f << \"}\";\n 1640        \n ....\n 1670  // --------------------------------------------------------------------------\n 1671  \n 1672: template<class TDescriptor, class F>\n 1673: void TemplatedVocabulary<TDescriptor,F>::load(const cv::FileStorage &fs,\n 1674    const std::string &name)\n 1675  {\n ....\n 1704      m_nodes[pid].children.push_back(nid);\n 1705      \n 1706:     F::fromString(m_nodes[nid].descriptor, d);\n 1707    }\n 1708    \n ....\n 1729   * @param voc\n 1730   */\n 1731: template<class TDescriptor, class F>\n 1732  std::ostream& operator<<(std::ostream &os, \n 1733:   const TemplatedVocabulary<TDescriptor,F> &voc)\n 1734  {\n 1735    os << \"Vocabulary: k = \" << voc.getBranchingFactor() \n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/g2o/build/CMakeFiles/feature_tests.bin:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/g2o/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/g2o/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/g2o/build/CMakeFiles/3.5.1/CompilerIdC/a.out:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/g2o/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c:\n  461  #ifdef COMPILER_VERSION_MAJOR\n  462  char const info_version[] = {\n  463:   'I', 'N', 'F', 'O', ':',\n  464    'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',\n  465    COMPILER_VERSION_MAJOR,\n  ...\n  479  #ifdef SIMULATE_VERSION_MAJOR\n  480  char const info_simulate_version[] = {\n  481:   'I', 'N', 'F', 'O', ':',\n  482    's','i','m','u','l','a','t','e','_','v','e','r','s','i','o','n','[',\n  483    SIMULATE_VERSION_MAJOR,\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/g2o/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/Thirdparty/g2o/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:\n  456  #ifdef COMPILER_VERSION_MAJOR\n  457  char const info_version[] = {\n  458:   'I', 'N', 'F', 'O', ':',\n  459    'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',\n  460    COMPILER_VERSION_MAJOR,\n  ...\n  474  #ifdef SIMULATE_VERSION_MAJOR\n  475  char const info_simulate_version[] = {\n  476:   'I', 'N', 'F', 'O', ':',\n  477    's','i','m','u','l','a','t','e','_','v','e','r','s','i','o','n','[',\n  478    SIMULATE_VERSION_MAJOR,\n\n/home/zmy/project_ws/ORB-SLAM2/Vocabulary/bin_vocabulary:\n    <binary>\n\n/home/zmy/project_ws/ORB-SLAM2/Vocabulary/ORBvoc.txt:\n    File too large, skipping\n\n/home/zmy/project_ws/ORB-SLAM2/Vocabulary/ORBvoc.txt.tar.gz:\n    <binary>\n\n37907 matches across 46 files\n",
-			"settings":
-			{
-				"buffer_size": 39094,
-				"line_ending": "Unix",
-				"name": "Find Results",
-				"scratch": true
 			}
 		},
 		{
@@ -1118,6 +1117,7 @@
 	],
 	"file_history":
 	[
+		"/home/zmy/project_ws/ORB-SLAM2/src/Initializer.cpp",
 		"/home/zmy/Downloads/imu_tk-master/src/calibration.cpp",
 		"/home/zmy/Documents/WeChat Files/wxid_4634576346312/FileStorage/File/2020-03/vs_common_lib/vs_common/vs_yaml_parser.h",
 		"/home/zmy/Documents/WeChat Files/wxid_4634576346312/FileStorage/File/2020-03/vs_common_lib/vs_common/vs_viz3d.h",
@@ -1204,7 +1204,6 @@
 		"/home/zmy/project_ws/ORB-SLAM2/src/Converter.cpp",
 		"/home/zmy/project_ws/ceres_pose_graph/CMakeLists.txt",
 		"/home/zmy/project_ws/covariance_estimate/Jacobian/CMakeLists.txt",
-		"/home/zmy/project_ws/ORB-SLAM2/src/Initializer.cpp",
 		"/home/zmy/project_ws/ORB-SLAM2/src/KeyFrameDatabase.cpp",
 		"/home/zmy/project_ws/ORB-SLAM2/src/LoopClosing.cpp",
 		"/home/zmy/project_ws/ORB-SLAM2/Thirdparty/DBoW2/DBoW2/FeatureVector.h",
@@ -1249,7 +1248,7 @@
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -1264,6 +1263,38 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"KeyPoint",
+			"FAST",
+			"ComputeKeyPointsOctTree",
+			"mvKeys",
+			"mpORBextractorLeft",
+			"mDescriptors",
+			"{\n",
+			"mvKeys",
+			"ExtractORB",
+			"---",
+			"mvScaleFactor",
+			"mfLogScaleFactor",
+			"scaleFactor",
+			"mpReferenceKF",
+			"FRAME_GRID_COLS",
+			"mbStopRequested",
+			"unique_lock",
+			"mMutexMode",
+			"boolalpha",
+			"CheckNewKeyFrames",
+			"mbAcceptKeyFrames",
+			"ResetIfRequested",
+			"mpLocalMapper",
+			"mpViewer",
+			"bUseViewer",
+			"mnCovisibilityConsistencyTh",
+			"mpIniORBextractor",
+			"umax",
+			"HALF_PATCH_SIZE",
+			"pattern",
+			"bit_pattern_31_",
+			"nfeatures",
 			"mK",
 			"size()",
 			"size",
@@ -1302,7 +1333,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 17,
 			"sheets":
 			[
 				{
@@ -1452,8 +1483,8 @@
 						"selection":
 						[
 							[
-								1519,
-								1519
+								5222,
+								5222
 							]
 						],
 						"settings":
@@ -1468,8 +1499,8 @@
 								{
 									"1":
 									[
-										4297,
-										4298
+										5221,
+										5222
 									]
 								},
 								"icon":
@@ -1484,8 +1515,8 @@
 								{
 									"1":
 									[
-										1511,
-										1512
+										4962,
+										4963
 									]
 								},
 								"unmatched":
@@ -1494,75 +1525,313 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"syntax": "Packages/C++/C++.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 660.0,
+						"translation.y": 3067.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+					"file": "Examples/Stereo/stereo_kitti.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2252,
+								2252
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2252,
+										2253
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2210,
+										2211
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1087.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Examples/Stereo/stereo_EuRoC.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6697,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6004,
+								6004
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										6695,
+										6696
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										6003,
+										6004
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4026.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "include/System.h",
 					"semi_transient": false,
 					"settings":
@@ -1574,8 +1843,8 @@
 						"selection":
 						[
 							[
-								4986,
-								4986
+								5520,
+								5520
 							]
 						],
 						"settings":
@@ -1616,75 +1885,75 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"syntax": "Packages/C++/C++.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2231.0,
+						"translation.y": 3006.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "src/System.cpp",
 					"semi_transient": false,
 					"settings":
@@ -1696,8 +1965,8 @@
 						"selection":
 						[
 							[
-								2732,
-								2732
+								4921,
+								4921
 							]
 						],
 						"settings":
@@ -1715,8 +1984,8 @@
 								{
 									"1":
 									[
-										4527,
-										4528
+										5315,
+										5316
 									]
 								},
 								"icon":
@@ -1731,8 +2000,8 @@
 								{
 									"1":
 									[
-										1463,
-										1464
+										4920,
+										4921
 									]
 								},
 								"unmatched":
@@ -1741,75 +2010,75 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"syntax": "Packages/C++/C++.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1286.0,
+						"translation.y": 3204.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
 					"file": "include/ORBVocabulary.h",
 					"semi_transient": false,
 					"settings":
@@ -1910,11 +2179,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "include/KeyFrameDatabase.h",
 					"semi_transient": false,
 					"settings":
@@ -2032,11 +2301,11 @@
 						"translation.y": 714.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 27,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "src/KeyFrameDatabase.cpp",
 					"semi_transient": false,
 					"settings":
@@ -2139,11 +2408,11 @@
 						"translation.y": 272.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 22,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
 					"file": "include/Tracking.h",
 					"semi_transient": false,
 					"settings":
@@ -2155,8 +2424,8 @@
 						"selection":
 						[
 							[
-								5621,
-								5621
+								1973,
+								1973
 							]
 						],
 						"settings":
@@ -2177,82 +2446,82 @@
 								{
 									"1":
 									[
-										6503,
-										6504
+										1383,
+										1384
 									]
 								}
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"syntax": "Packages/C++/C++.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3837.0,
+						"translation.y": 1065.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 11,
 					"file": "src/Tracking.cpp",
 					"semi_transient": false,
 					"settings":
@@ -2264,8 +2533,8 @@
 						"selection":
 						[
 							[
-								2349,
-								2349
+								8184,
+								8184
 							]
 						],
 						"settings":
@@ -2275,93 +2544,103 @@
 							{
 								"close":
 								{
+									"1":
+									[
+										8225,
+										8226
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										7423,
+										7424
+									]
 								},
 								"unmatched":
 								{
-									"1":
-									[
-										1876,
-										1877
-									]
 								}
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"syntax": "Packages/C++/C++.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1461.0,
+						"translation.y": 5727.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 12,
 					"file": "include/Map.h",
 					"semi_transient": false,
 					"settings":
@@ -2373,8 +2652,8 @@
 						"selection":
 						[
 							[
-								1338,
-								1338
+								1568,
+								1568
 							]
 						],
 						"settings":
@@ -2415,75 +2694,75 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"syntax": "Packages/C++/C++.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 861.0,
+						"translation.y": 926.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 13,
 					"file": "src/Map.cpp",
 					"semi_transient": false,
 					"settings":
@@ -2537,75 +2816,75 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"syntax": "Packages/C++/C++.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 390.0,
+						"translation.y": 2502.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 14,
 					"file": "include/MapDrawer.h",
 					"semi_transient": false,
 					"settings":
@@ -2720,11 +2999,11 @@
 						"translation.y": 376.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 15,
 					"file": "src/MapDrawer.cpp",
 					"semi_transient": false,
 					"settings":
@@ -2829,11 +3108,725 @@
 						"translation.y": 1716.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "include/ORBextractor.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1727,
+								1735
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1782,
+										1783
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1660,
+										1661
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 775.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "src/ORBextractor.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 46966,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37346,
+								37346
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										37404,
+										37405
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										37220,
+										37221
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 16522.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "include/LocalMapping.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2846,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2762,
+								2762
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2793,
+										2794
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1100,
+										1101
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2016.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "src/LocalMapping.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29855,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23949,
+								23949
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										24153,
+										24154
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										23948,
+										23949
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 15743.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 20,
+					"file": "include/LoopClosing.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3602,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1668,
+								1668
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										3550,
+										3551
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1219,
+										1220
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 970.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "src/LoopClosing.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31931,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2916,
+								2916
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2924,
+										2925
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2894,
+										2895
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1967.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
 					"file": "include/Frame.h",
 					"semi_transient": false,
 					"settings":
@@ -2845,25 +3838,221 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								4705,
+								4705
 							]
 						],
 						"settings":
 						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
 							"syntax": "Packages/C++/C++.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2333.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 123,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 23,
+					"file": "src/Frame.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9277,
+								9277
+							]
+						],
+						"settings":
+						{
+							"SL.39.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										9290,
+										9291
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										9257,
+										9258
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4670.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
 					"file": "include/Converter.h",
 					"semi_transient": false,
 					"settings":
@@ -2889,11 +4078,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 122,
+					"stack_index": 123,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 25,
 					"file": "include/FrameDrawer.h",
 					"semi_transient": false,
 					"settings":
@@ -3008,11 +4197,11 @@
 						"translation.y": 772.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 26,
 					"file": "src/FrameDrawer.cpp",
 					"semi_transient": false,
 					"settings":
@@ -3024,8 +4213,8 @@
 						"selection":
 						[
 							[
-								1297,
-								1297
+								5702,
+								5702
 							]
 						],
 						"settings":
@@ -3037,8 +4226,8 @@
 								{
 									"1":
 									[
-										1296,
-										1297
+										5777,
+										5778
 									]
 								},
 								"icon":
@@ -3053,8 +4242,8 @@
 								{
 									"1":
 									[
-										1295,
-										1296
+										5682,
+										5683
 									]
 								},
 								"unmatched":
@@ -3063,75 +4252,303 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"syntax": "Packages/C++/C++.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 339.0,
+						"translation.y": 3551.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 27,
+					"file": "include/Viewer.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2035,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1441,
+								1441
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2005,
+										2006
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1076,
+										1077
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 515.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "src/Viewer.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7402,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3249,
+								3249
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										1919,
+										1920
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3507.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 29,
 					"file": "include/KeyFrame.h",
 					"semi_transient": false,
 					"settings":
@@ -3236,11 +4653,11 @@
 						"translation.y": 669.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 30,
 					"file": "include/Initializer.h",
 					"semi_transient": false,
 					"settings":
@@ -3266,219 +4683,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 121,
+					"stack_index": 122,
 					"type": "text"
 				},
 				{
-					"buffer": 20,
-					"file": "include/LocalMapping.h",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2846,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 120,
-					"type": "text"
-				},
-				{
-					"buffer": 21,
-					"file": "include/LoopClosing.h",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3602,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 119,
-					"type": "text"
-				},
-				{
-					"buffer": 22,
+					"buffer": 31,
 					"file": "include/MapPoint.h",
 					"semi_transient": false,
 					"settings":
@@ -3578,11 +4787,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 118,
+					"stack_index": 121,
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 32,
 					"file": "include/Optimizer.h",
 					"semi_transient": false,
 					"settings":
@@ -3682,41 +4891,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 117,
+					"stack_index": 120,
 					"type": "text"
 				},
 				{
-					"buffer": 24,
-					"file": "include/ORBextractor.h",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3208,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 116,
-					"type": "text"
-				},
-				{
-					"buffer": 25,
+					"buffer": 33,
 					"file": "include/ORBmatcher.h",
 					"semi_transient": false,
 					"settings":
@@ -3816,11 +4995,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 115,
+					"stack_index": 119,
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 34,
 					"file": "include/PnPsolver.h",
 					"semi_transient": false,
 					"settings":
@@ -3920,11 +5099,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 114,
+					"stack_index": 118,
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 35,
 					"file": "include/Sim3Solver.h",
 					"semi_transient": false,
 					"settings":
@@ -4024,115 +5203,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 113,
+					"stack_index": 117,
 					"type": "text"
 				},
 				{
-					"buffer": 28,
-					"file": "include/Viewer.h",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2035,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 112,
-					"type": "text"
-				},
-				{
-					"buffer": 29,
+					"buffer": 36,
 					"file": "src/Converter.cpp",
 					"semi_transient": false,
 					"settings":
@@ -4232,222 +5307,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 111,
+					"stack_index": 116,
 					"type": "text"
 				},
 				{
-					"buffer": 30,
-					"file": "src/Frame.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 26073,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"SL.39.region_keys":
-							[
-							],
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 23,
-					"type": "text"
-				},
-				{
-					"buffer": 31,
-					"file": "src/Initializer.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 34948,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 110,
-					"type": "text"
-				},
-				{
-					"buffer": 32,
+					"buffer": 37,
 					"file": "src/KeyFrame.cpp",
 					"semi_transient": false,
 					"settings":
@@ -4483,61 +5347,61 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"syntax": "Packages/C++/C++.sublime-syntax",
 							"tab_size": 4,
@@ -4547,219 +5411,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 109,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
-					"buffer": 33,
-					"file": "src/LocalMapping.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 29855,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 108,
-					"type": "text"
-				},
-				{
-					"buffer": 34,
-					"file": "src/LoopClosing.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 31931,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 107,
-					"type": "text"
-				},
-				{
-					"buffer": 35,
+					"buffer": 38,
 					"file": "src/MapPoint.cpp",
 					"semi_transient": false,
 					"settings":
@@ -4859,11 +5515,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 106,
+					"stack_index": 115,
 					"type": "text"
 				},
 				{
-					"buffer": 36,
+					"buffer": 39,
 					"file": "src/Optimizer.cpp",
 					"semi_transient": false,
 					"settings":
@@ -4963,115 +5619,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 105,
+					"stack_index": 114,
 					"type": "text"
 				},
 				{
-					"buffer": 37,
-					"file": "src/ORBextractor.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 46830,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 104,
-					"type": "text"
-				},
-				{
-					"buffer": 38,
+					"buffer": 40,
 					"file": "src/ORBmatcher.cpp",
 					"semi_transient": false,
 					"settings":
@@ -5097,11 +5649,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 103,
+					"stack_index": 113,
 					"type": "text"
 				},
 				{
-					"buffer": 39,
+					"buffer": 41,
 					"file": "src/PnPsolver.cpp",
 					"semi_transient": false,
 					"settings":
@@ -5201,11 +5753,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 102,
+					"stack_index": 112,
 					"type": "text"
 				},
 				{
-					"buffer": 40,
+					"buffer": 42,
 					"file": "src/Sim3Solver.cpp",
 					"semi_transient": false,
 					"settings":
@@ -5305,115 +5857,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 101,
+					"stack_index": 111,
 					"type": "text"
 				},
 				{
-					"buffer": 41,
-					"file": "src/Viewer.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7402,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 100,
-					"type": "text"
-				},
-				{
-					"buffer": 42,
+					"buffer": 43,
 					"file": "Thirdparty/DBoW2/DBoW2/BowVector.cpp",
 					"semi_transient": false,
 					"settings":
@@ -5439,11 +5887,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 99,
+					"stack_index": 110,
 					"type": "text"
 				},
 				{
-					"buffer": 43,
+					"buffer": 44,
 					"file": "Thirdparty/DBoW2/DBoW2/BowVector.h",
 					"semi_transient": false,
 					"settings":
@@ -5556,11 +6004,11 @@
 						"translation.y": 728.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 32,
 					"type": "text"
 				},
 				{
-					"buffer": 44,
+					"buffer": 45,
 					"file": "Thirdparty/DBoW2/DBoW2/FClass.h",
 					"semi_transient": false,
 					"settings":
@@ -5675,11 +6123,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 33,
 					"type": "text"
 				},
 				{
-					"buffer": 45,
+					"buffer": 46,
 					"file": "Thirdparty/DBoW2/DBoW2/FeatureVector.h",
 					"semi_transient": false,
 					"settings":
@@ -5705,11 +6153,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 98,
+					"stack_index": 109,
 					"type": "text"
 				},
 				{
-					"buffer": 46,
+					"buffer": 47,
 					"file": "Thirdparty/DBoW2/DBoW2/FeatureVector.cpp",
 					"semi_transient": false,
 					"settings":
@@ -5809,11 +6257,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 97,
+					"stack_index": 108,
 					"type": "text"
 				},
 				{
-					"buffer": 47,
+					"buffer": 48,
 					"file": "Thirdparty/DBoW2/DBoW2/FORB.cpp",
 					"semi_transient": false,
 					"settings":
@@ -5839,11 +6287,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 96,
+					"stack_index": 107,
 					"type": "text"
 				},
 				{
-					"buffer": 48,
+					"buffer": 49,
 					"file": "Thirdparty/DBoW2/DBoW2/FORB.h",
 					"semi_transient": false,
 					"settings":
@@ -5958,11 +6406,11 @@
 						"translation.y": 244.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 31,
 					"type": "text"
 				},
 				{
-					"buffer": 49,
+					"buffer": 50,
 					"file": "Thirdparty/DBoW2/DBoW2/ScoringObject.cpp",
 					"semi_transient": false,
 					"settings":
@@ -6062,11 +6510,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 95,
+					"stack_index": 106,
 					"type": "text"
 				},
 				{
-					"buffer": 50,
+					"buffer": 51,
 					"file": "Thirdparty/DBoW2/DBoW2/ScoringObject.h",
 					"semi_transient": false,
 					"settings":
@@ -6117,1197 +6565,68 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"syntax": "Packages/C++/C++.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1410.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 21,
-					"type": "text"
-				},
-				{
-					"buffer": 51,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 39094,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										182,
-										188
-									],
-									[
-										277,
-										283
-									],
-									[
-										382,
-										388
-									],
-									[
-										555,
-										561
-									],
-									[
-										771,
-										777
-									],
-									[
-										973,
-										979
-									],
-									[
-										1201,
-										1207
-									],
-									[
-										1392,
-										1398
-									],
-									[
-										1497,
-										1503
-									],
-									[
-										1592,
-										1598
-									],
-									[
-										1695,
-										1701
-									],
-									[
-										1808,
-										1814
-									],
-									[
-										1914,
-										1920
-									],
-									[
-										2029,
-										2035
-									],
-									[
-										2286,
-										2292
-									],
-									[
-										2469,
-										2475
-									],
-									[
-										2532,
-										2538
-									],
-									[
-										2608,
-										2614
-									],
-									[
-										2780,
-										2786
-									],
-									[
-										2929,
-										2935
-									],
-									[
-										3947,
-										3948
-									],
-									[
-										4181,
-										4182
-									],
-									[
-										4582,
-										4583
-									],
-									[
-										4816,
-										4817
-									],
-									[
-										5683,
-										5684
-									],
-									[
-										5917,
-										5918
-									],
-									[
-										6364,
-										6365
-									],
-									[
-										6598,
-										6599
-									],
-									[
-										6826,
-										6827
-									],
-									[
-										7070,
-										7071
-									],
-									[
-										7288,
-										7289
-									],
-									[
-										7506,
-										7507
-									],
-									[
-										7791,
-										7792
-									],
-									[
-										8002,
-										8003
-									],
-									[
-										8280,
-										8281
-									],
-									[
-										8577,
-										8578
-									],
-									[
-										8601,
-										8602
-									],
-									[
-										8613,
-										8614
-									],
-									[
-										8947,
-										8948
-									],
-									[
-										9198,
-										9199
-									],
-									[
-										9368,
-										9369
-									],
-									[
-										9583,
-										9584
-									],
-									[
-										9644,
-										9645
-									],
-									[
-										9665,
-										9666
-									],
-									[
-										9771,
-										9772
-									],
-									[
-										9820,
-										9821
-									],
-									[
-										10058,
-										10059
-									],
-									[
-										10068,
-										10069
-									],
-									[
-										10078,
-										10079
-									],
-									[
-										10088,
-										10089
-									],
-									[
-										10101,
-										10102
-									],
-									[
-										10117,
-										10118
-									],
-									[
-										10142,
-										10143
-									],
-									[
-										10153,
-										10154
-									],
-									[
-										10169,
-										10170
-									],
-									[
-										10184,
-										10185
-									],
-									[
-										10197,
-										10198
-									],
-									[
-										10217,
-										10218
-									],
-									[
-										10250,
-										10251
-									],
-									[
-										10271,
-										10272
-									],
-									[
-										10296,
-										10297
-									],
-									[
-										10340,
-										10341
-									],
-									[
-										10361,
-										10362
-									],
-									[
-										10388,
-										10389
-									],
-									[
-										10420,
-										10421
-									],
-									[
-										10466,
-										10467
-									],
-									[
-										10502,
-										10503
-									],
-									[
-										10535,
-										10536
-									],
-									[
-										10581,
-										10582
-									],
-									[
-										10609,
-										10610
-									],
-									[
-										10627,
-										10628
-									],
-									[
-										10645,
-										10646
-									],
-									[
-										10674,
-										10675
-									],
-									[
-										10688,
-										10689
-									],
-									[
-										10708,
-										10709
-									],
-									[
-										10773,
-										10774
-									],
-									[
-										10913,
-										10914
-									],
-									[
-										11100,
-										11101
-									],
-									[
-										11155,
-										11156
-									],
-									[
-										11364,
-										11365
-									],
-									[
-										11686,
-										11687
-									],
-									[
-										11867,
-										11868
-									],
-									[
-										12063,
-										12064
-									],
-									[
-										12088,
-										12089
-									],
-									[
-										12303,
-										12304
-									],
-									[
-										12452,
-										12453
-									],
-									[
-										12656,
-										12657
-									],
-									[
-										12896,
-										12897
-									],
-									[
-										13120,
-										13121
-									],
-									[
-										13359,
-										13360
-									],
-									[
-										13549,
-										13550
-									],
-									[
-										13826,
-										13827
-									],
-									[
-										13882,
-										13883
-									],
-									[
-										14091,
-										14092
-									],
-									[
-										14138,
-										14139
-									],
-									[
-										14244,
-										14245
-									],
-									[
-										14347,
-										14348
-									],
-									[
-										14396,
-										14397
-									],
-									[
-										14535,
-										14536
-									],
-									[
-										14766,
-										14767
-									],
-									[
-										14947,
-										14948
-									],
-									[
-										15097,
-										15098
-									],
-									[
-										15305,
-										15306
-									],
-									[
-										15511,
-										15512
-									],
-									[
-										15696,
-										15697
-									],
-									[
-										15978,
-										15979
-									],
-									[
-										16127,
-										16128
-									],
-									[
-										16302,
-										16303
-									],
-									[
-										16661,
-										16662
-									],
-									[
-										16867,
-										16868
-									],
-									[
-										17018,
-										17019
-									],
-									[
-										17287,
-										17288
-									],
-									[
-										17524,
-										17525
-									],
-									[
-										17787,
-										17788
-									],
-									[
-										17997,
-										17998
-									],
-									[
-										18231,
-										18232
-									],
-									[
-										18512,
-										18513
-									],
-									[
-										18848,
-										18849
-									],
-									[
-										18900,
-										18901
-									],
-									[
-										18950,
-										18951
-									],
-									[
-										19011,
-										19012
-									],
-									[
-										19067,
-										19068
-									],
-									[
-										19233,
-										19234
-									],
-									[
-										19388,
-										19389
-									],
-									[
-										19589,
-										19590
-									],
-									[
-										19611,
-										19612
-									],
-									[
-										19633,
-										19634
-									],
-									[
-										19655,
-										19656
-									],
-									[
-										20341,
-										20342
-									],
-									[
-										20575,
-										20576
-									],
-									[
-										21010,
-										21011
-									],
-									[
-										21244,
-										21245
-									],
-									[
-										21540,
-										21541
-									],
-									[
-										21798,
-										21799
-									],
-									[
-										21871,
-										21872
-									],
-									[
-										22055,
-										22056
-									],
-									[
-										22198,
-										22199
-									],
-									[
-										22263,
-										22264
-									],
-									[
-										22437,
-										22438
-									],
-									[
-										22479,
-										22480
-									],
-									[
-										22784,
-										22785
-									],
-									[
-										22826,
-										22827
-									],
-									[
-										23062,
-										23063
-									],
-									[
-										23104,
-										23105
-									],
-									[
-										23333,
-										23334
-									],
-									[
-										23380,
-										23381
-									],
-									[
-										23589,
-										23590
-									],
-									[
-										23636,
-										23637
-									],
-									[
-										23849,
-										23850
-									],
-									[
-										23896,
-										23897
-									],
-									[
-										24121,
-										24122
-									],
-									[
-										24163,
-										24164
-									],
-									[
-										24236,
-										24237
-									],
-									[
-										24428,
-										24429
-									],
-									[
-										24470,
-										24471
-									],
-									[
-										24680,
-										24681
-									],
-									[
-										24723,
-										24724
-									],
-									[
-										24767,
-										24768
-									],
-									[
-										24830,
-										24831
-									],
-									[
-										25020,
-										25021
-									],
-									[
-										25067,
-										25068
-									],
-									[
-										25302,
-										25303
-									],
-									[
-										25349,
-										25350
-									],
-									[
-										25598,
-										25599
-									],
-									[
-										25645,
-										25646
-									],
-									[
-										25940,
-										25941
-									],
-									[
-										25987,
-										25988
-									],
-									[
-										26255,
-										26256
-									],
-									[
-										26302,
-										26303
-									],
-									[
-										26473,
-										26474
-									],
-									[
-										26694,
-										26695
-									],
-									[
-										26900,
-										26901
-									],
-									[
-										27132,
-										27133
-									],
-									[
-										27180,
-										27181
-									],
-									[
-										27437,
-										27438
-									],
-									[
-										27484,
-										27485
-									],
-									[
-										27714,
-										27715
-									],
-									[
-										27850,
-										27851
-									],
-									[
-										28112,
-										28113
-									],
-									[
-										28159,
-										28160
-									],
-									[
-										28354,
-										28355
-									],
-									[
-										28401,
-										28402
-									],
-									[
-										28634,
-										28635
-									],
-									[
-										28696,
-										28697
-									],
-									[
-										28894,
-										28895
-									],
-									[
-										28948,
-										28949
-									],
-									[
-										29148,
-										29149
-									],
-									[
-										29196,
-										29197
-									],
-									[
-										29399,
-										29400
-									],
-									[
-										29453,
-										29454
-									],
-									[
-										29674,
-										29675
-									],
-									[
-										29727,
-										29728
-									],
-									[
-										29950,
-										29951
-									],
-									[
-										30000,
-										30001
-									],
-									[
-										30207,
-										30208
-									],
-									[
-										30254,
-										30255
-									],
-									[
-										30489,
-										30490
-									],
-									[
-										30537,
-										30538
-									],
-									[
-										30805,
-										30806
-									],
-									[
-										30862,
-										30863
-									],
-									[
-										31079,
-										31080
-									],
-									[
-										31126,
-										31127
-									],
-									[
-										31345,
-										31346
-									],
-									[
-										31392,
-										31393
-									],
-									[
-										31597,
-										31598
-									],
-									[
-										31792,
-										31793
-									],
-									[
-										32021,
-										32022
-									],
-									[
-										32070,
-										32071
-									],
-									[
-										32279,
-										32280
-									],
-									[
-										32326,
-										32327
-									],
-									[
-										32552,
-										32553
-									],
-									[
-										32598,
-										32599
-									],
-									[
-										32799,
-										32800
-									],
-									[
-										32846,
-										32847
-									],
-									[
-										33006,
-										33007
-									],
-									[
-										33020,
-										33021
-									],
-									[
-										33152,
-										33153
-									],
-									[
-										33397,
-										33398
-									],
-									[
-										33444,
-										33445
-									],
-									[
-										33597,
-										33598
-									],
-									[
-										33826,
-										33827
-									],
-									[
-										33873,
-										33874
-									],
-									[
-										34171,
-										34172
-									],
-									[
-										34187,
-										34188
-									],
-									[
-										34244,
-										34245
-									],
-									[
-										34253,
-										34254
-									],
-									[
-										34304,
-										34305
-									],
-									[
-										34314,
-										34315
-									],
-									[
-										34337,
-										34338
-									],
-									[
-										34359,
-										34360
-									],
-									[
-										34573,
-										34574
-									],
-									[
-										34620,
-										34621
-									],
-									[
-										34895,
-										34896
-									],
-									[
-										34949,
-										34950
-									],
-									[
-										35213,
-										35214
-									],
-									[
-										35221,
-										35222
-									],
-									[
-										35569,
-										35570
-									],
-									[
-										35616,
-										35617
-									],
-									[
-										35880,
-										35881
-									],
-									[
-										35927,
-										35928
-									],
-									[
-										36184,
-										36185
-									],
-									[
-										36231,
-										36232
-									],
-									[
-										36443,
-										36444
-									],
-									[
-										36651,
-										36652
-									],
-									[
-										36698,
-										36699
-									],
-									[
-										36855,
-										36856
-									],
-									[
-										36998,
-										36999
-									],
-									[
-										37099,
-										37100
-									],
-									[
-										37808,
-										37809
-									],
-									[
-										38042,
-										38043
-									],
-									[
-										38473,
-										38474
-									],
-									[
-										38707,
-										38708
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								21870,
-								21870
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-									"1":
-									[
-										21332,
-										21333
-									]
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 2,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ \t].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 12936.0,
+						"translation.y": 1392.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 20,
@@ -7427,7 +6746,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
+					"stack_index": 34,
 					"type": "text"
 				},
 				{
@@ -7536,7 +6855,7 @@
 						"translation.y": 8336.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 29,
 					"type": "text"
 				},
 				{
@@ -7566,7 +6885,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 94,
+					"stack_index": 105,
 					"type": "text"
 				},
 				{
@@ -7670,7 +6989,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 93,
+					"stack_index": 104,
 					"type": "text"
 				},
 				{
@@ -7774,7 +7093,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 92,
+					"stack_index": 103,
 					"type": "text"
 				},
 				{
@@ -7878,7 +7197,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 91,
+					"stack_index": 102,
 					"type": "text"
 				},
 				{
@@ -7908,7 +7227,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 90,
+					"stack_index": 101,
 					"type": "text"
 				},
 				{
@@ -8012,7 +7331,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 89,
+					"stack_index": 100,
 					"type": "text"
 				},
 				{
@@ -8116,7 +7435,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 88,
+					"stack_index": 99,
 					"type": "text"
 				},
 				{
@@ -8220,7 +7539,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 87,
+					"stack_index": 98,
 					"type": "text"
 				},
 				{
@@ -8324,7 +7643,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 86,
+					"stack_index": 97,
 					"type": "text"
 				},
 				{
@@ -8428,7 +7747,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 85,
+					"stack_index": 96,
 					"type": "text"
 				},
 				{
@@ -8532,7 +7851,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 84,
+					"stack_index": 95,
 					"type": "text"
 				},
 				{
@@ -8636,7 +7955,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 83,
+					"stack_index": 94,
 					"type": "text"
 				},
 				{
@@ -8740,7 +8059,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 82,
+					"stack_index": 93,
 					"type": "text"
 				},
 				{
@@ -8844,7 +8163,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 81,
+					"stack_index": 92,
 					"type": "text"
 				},
 				{
@@ -8963,7 +8282,7 @@
 						"translation.y": 779.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 30,
 					"type": "text"
 				},
 				{
@@ -9067,7 +8386,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 80,
+					"stack_index": 91,
 					"type": "text"
 				},
 				{
@@ -9171,7 +8490,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 79,
+					"stack_index": 90,
 					"type": "text"
 				},
 				{
@@ -9201,7 +8520,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 78,
+					"stack_index": 89,
 					"type": "text"
 				},
 				{
@@ -9305,7 +8624,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 77,
+					"stack_index": 88,
 					"type": "text"
 				},
 				{
@@ -9409,7 +8728,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 76,
+					"stack_index": 87,
 					"type": "text"
 				},
 				{
@@ -9513,7 +8832,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 75,
+					"stack_index": 86,
 					"type": "text"
 				},
 				{
@@ -9615,7 +8934,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 74,
+					"stack_index": 85,
 					"type": "text"
 				},
 				{
@@ -9645,7 +8964,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 73,
+					"stack_index": 84,
 					"type": "text"
 				},
 				{
@@ -9749,7 +9068,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 72,
+					"stack_index": 83,
 					"type": "text"
 				},
 				{
@@ -9853,7 +9172,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 71,
+					"stack_index": 82,
 					"type": "text"
 				},
 				{
@@ -9957,7 +9276,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 70,
+					"stack_index": 81,
 					"type": "text"
 				},
 				{
@@ -10061,7 +9380,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 69,
+					"stack_index": 80,
 					"type": "text"
 				},
 				{
@@ -10091,7 +9410,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 68,
+					"stack_index": 79,
 					"type": "text"
 				},
 				{
@@ -10195,7 +9514,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 67,
+					"stack_index": 78,
 					"type": "text"
 				},
 				{
@@ -10299,7 +9618,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 66,
+					"stack_index": 77,
 					"type": "text"
 				},
 				{
@@ -10403,7 +9722,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 65,
+					"stack_index": 76,
 					"type": "text"
 				},
 				{
@@ -10433,7 +9752,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 64,
+					"stack_index": 75,
 					"type": "text"
 				},
 				{
@@ -10537,7 +9856,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 63,
+					"stack_index": 74,
 					"type": "text"
 				},
 				{
@@ -10641,7 +9960,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 62,
+					"stack_index": 73,
 					"type": "text"
 				},
 				{
@@ -10745,7 +10064,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 61,
+					"stack_index": 72,
 					"type": "text"
 				},
 				{
@@ -10849,7 +10168,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 60,
+					"stack_index": 71,
 					"type": "text"
 				},
 				{
@@ -10953,7 +10272,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 59,
+					"stack_index": 70,
 					"type": "text"
 				},
 				{
@@ -11057,7 +10376,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 58,
+					"stack_index": 69,
 					"type": "text"
 				},
 				{
@@ -11161,7 +10480,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 57,
+					"stack_index": 68,
 					"type": "text"
 				},
 				{
@@ -11189,7 +10508,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 56,
+					"stack_index": 67,
 					"type": "text"
 				},
 				{
@@ -11219,7 +10538,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 55,
+					"stack_index": 66,
 					"type": "text"
 				},
 				{
@@ -11323,7 +10642,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 54,
+					"stack_index": 65,
 					"type": "text"
 				},
 				{
@@ -11427,7 +10746,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 53,
+					"stack_index": 64,
 					"type": "text"
 				},
 				{
@@ -11531,7 +10850,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 52,
+					"stack_index": 63,
 					"type": "text"
 				},
 				{
@@ -11635,7 +10954,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 51,
+					"stack_index": 62,
 					"type": "text"
 				},
 				{
@@ -11739,7 +11058,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 50,
+					"stack_index": 61,
 					"type": "text"
 				},
 				{
@@ -11843,7 +11162,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 49,
+					"stack_index": 60,
 					"type": "text"
 				},
 				{
@@ -11947,7 +11266,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 48,
+					"stack_index": 59,
 					"type": "text"
 				},
 				{
@@ -12051,7 +11370,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 47,
+					"stack_index": 58,
 					"type": "text"
 				},
 				{
@@ -12155,7 +11474,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 46,
+					"stack_index": 57,
 					"type": "text"
 				},
 				{
@@ -12259,7 +11578,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 45,
+					"stack_index": 56,
 					"type": "text"
 				},
 				{
@@ -12363,7 +11682,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 44,
+					"stack_index": 55,
 					"type": "text"
 				},
 				{
@@ -12465,7 +11784,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 43,
+					"stack_index": 54,
 					"type": "text"
 				},
 				{
@@ -12569,7 +11888,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 42,
+					"stack_index": 53,
 					"type": "text"
 				},
 				{
@@ -12673,7 +11992,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 41,
+					"stack_index": 52,
 					"type": "text"
 				},
 				{
@@ -12777,7 +12096,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 40,
+					"stack_index": 51,
 					"type": "text"
 				},
 				{
@@ -12879,7 +12198,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 39,
+					"stack_index": 50,
 					"type": "text"
 				},
 				{
@@ -12983,7 +12302,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 38,
+					"stack_index": 49,
 					"type": "text"
 				},
 				{
@@ -13087,7 +12406,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 37,
+					"stack_index": 48,
 					"type": "text"
 				},
 				{
@@ -13191,7 +12510,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 36,
+					"stack_index": 47,
 					"type": "text"
 				},
 				{
@@ -13221,7 +12540,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 35,
+					"stack_index": 46,
 					"type": "text"
 				},
 				{
@@ -13325,7 +12644,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 34,
+					"stack_index": 45,
 					"type": "text"
 				},
 				{
@@ -13429,7 +12748,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 33,
+					"stack_index": 44,
 					"type": "text"
 				},
 				{
@@ -13533,7 +12852,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 32,
+					"stack_index": 43,
 					"type": "text"
 				},
 				{
@@ -13637,7 +12956,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 31,
+					"stack_index": 42,
 					"type": "text"
 				},
 				{
@@ -13741,7 +13060,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 30,
+					"stack_index": 41,
 					"type": "text"
 				},
 				{
@@ -13771,7 +13090,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 29,
+					"stack_index": 40,
 					"type": "text"
 				},
 				{
@@ -13875,7 +13194,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 28,
+					"stack_index": 39,
 					"type": "text"
 				},
 				{
@@ -13979,7 +13298,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 27,
+					"stack_index": 38,
 					"type": "text"
 				},
 				{
@@ -14083,7 +13402,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 26,
+					"stack_index": 37,
 					"type": "text"
 				},
 				{
@@ -14190,7 +13509,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 25,
+					"stack_index": 36,
 					"type": "text"
 				},
 				{
@@ -14297,7 +13616,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 24,
+					"stack_index": 35,
 					"type": "text"
 				}
 			]
@@ -14305,7 +13624,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 37.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -14358,7 +13677,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 70.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -14369,7 +13688,19 @@
 		[
 			[
 				"",
-				"src/Tracking.cpp"
+				"include/ORBextractor.h"
+			],
+			[
+				"ster",
+				"Examples/Stereo/stereo_EuRoC.cpp"
+			],
+			[
+				"stereo",
+				"Examples/Stereo/stereo_kitti.cpp"
+			],
+			[
+				"stre",
+				"Examples/ROS/ORB_SLAM2/src/ros_stereo.cc"
 			],
 			[
 				"sys",
@@ -14388,16 +13719,8 @@
 				"utils/stereo_slam.cpp"
 			],
 			[
-				"stereo",
-				"~/project_ws/ucoslam-1.0.8/utils/stereo_slam.cpp"
-			],
-			[
 				"cmak",
 				"~/project_ws/ucoslam-1.0.8/utils/CMakeLists.txt"
-			],
-			[
-				"ster",
-				"~/project_ws/ucoslam-1.0.8/utils/ucoslam_stereocalibrate.cpp"
 			],
 			[
 				"orbe",
