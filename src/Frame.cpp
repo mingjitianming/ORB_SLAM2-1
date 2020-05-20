@@ -262,6 +262,10 @@ void Frame::AssignFeaturesToGrid()
     }
 }
 
+/**
+* @brief 提取图像orb特征
+* 提取的orb特征的坐标皆为在图像金字塔底层的坐标
+**/
 void Frame::ExtractORB(int flag, const cv::Mat &im)
 {
     if(flag==0)
@@ -664,7 +668,7 @@ void Frame::ComputeStereoMatches()
             const int w = 5; // 滑动窗口的大小11*11 注意该窗口取自resize后的图像
             cv::Mat IL = mpORBextractorLeft->mvImagePyramid[kpL.octave].rowRange(scaledvL-w,scaledvL+w+1).colRange(scaleduL-w,scaleduL+w+1);
             IL.convertTo(IL,CV_32F);
-            IL = IL - IL.at<float>(w,w) * cv::Mat::ones(IL.rows,IL.cols,CV_32F);//窗口中的每个元素减去正中心的那个元素，简单归一化，减小光照强度影响
+            IL = IL - IL.at<float>(w,w) * cv::Mat::ones(IL.rows,IL.cols,CV_32F);//XXX:窗口中的每个元素减去正中心的那个元素，简单归一化，减小光照强度影响
 
             int bestDist = INT_MAX;
             int bestincR = 0;
@@ -673,7 +677,7 @@ void Frame::ComputeStereoMatches()
             vDists.resize(2*L+1); // 11
 
             // 滑动窗口的滑动范围为（-L, L）,提前判断滑动窗口滑动过程中是否会越界
-            const float iniu = scaleduR0+L-w; //这个地方是否应该是scaleduR0-L-w (wubo???)
+            const float iniu = scaleduR0+L-w; //FIXME:这个地方是否应该是scaleduR0-L-w (wubo???)
             const float endu = scaleduR0+L+w+1;
             if(iniu<0 || endu >= mpORBextractorRight->mvImagePyramid[kpL.octave].cols)
                 continue;
@@ -723,7 +727,7 @@ void Frame::ComputeStereoMatches()
 
             if(disparity>=minD && disparity<maxD) // 最后判断视差是否在范围内
             {
-                if(disparity<=0)
+                if(disparity<=0) //由于右侧图像对应的关键点在左侧图像关键点的左侧,故disparity>0
                 {
                     disparity=0.01;
                     bestuR = uL-0.01;

@@ -1107,7 +1107,8 @@ void ORBextractor::operator()( InputArray _image, InputArray _mask, vector<KeyPo
 
     // 计算每层图像的兴趣点
     vector < vector<KeyPoint> > allKeypoints; // vector<vector<KeyPoint>>
-    ComputeKeyPointsOctTree(allKeypoints);   //提取关键点
+    //此处提取的关键点坐标在各层金字塔的image下
+    ComputeKeyPointsOctTree(allKeypoints);   //提取关键点,计算关键点的角度
     //ComputeKeyPointsOld(allKeypoints);
 
     Mat descriptors;
@@ -1119,8 +1120,8 @@ void ORBextractor::operator()( InputArray _image, InputArray _mask, vector<KeyPo
         _descriptors.release();
     else
     {
-        _descriptors.create(nkeypoints, 32, CV_8U);
-        descriptors = _descriptors.getMat();
+        _descriptors.create(nkeypoints, 32, CV_8U);   //rows,cols,type
+        descriptors = _descriptors.getMat();  //getMat:将OutputArray转换为Mat
     }
 
     _keypoints.clear();
