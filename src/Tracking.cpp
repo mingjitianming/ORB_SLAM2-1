@@ -227,7 +227,7 @@ cv::Mat Tracking::GrabImageStereo(const cv::Mat &imRectLeft, const cv::Mat &imRe
         }
     }
 
-    // 步骤2：构造Frame
+    // 步骤2：构造Frame 将提取的特征点存入栅格mGrid中
     mCurrentFrame = Frame(mImGray,imGrayRight,timestamp,mpORBextractorLeft,mpORBextractorRight,mpORBVocabulary,mK,mDistCoef,mbf,mThDepth);
 
     // 步骤3：跟踪
@@ -636,7 +636,7 @@ void Tracking::StereoInitialization()
     {
         // Set Frame pose to the origin
         // 步骤1：设定初始位姿
-        mCurrentFrame.SetPose(cv::Mat::eye(4,4,CV_32F));
+        mCurrentFrame.SetPose(cv::Mat::eye(4,4,CV_32F));  //此处传入的是world2camera,Frame内会计算出camera2world
 
         // Create KeyFrame
         // 步骤2：将当前帧构造为初始关键帧
@@ -646,7 +646,7 @@ void Tracking::StereoInitialization()
         // KeyFrame里有一个mpKeyFrameDB，Tracking里有一个mpKeyFrameDB，而KeyFrame里的mpKeyFrameDB都指向Tracking里的这个mpKeyFrameDB
         KeyFrame* pKFini = new KeyFrame(mCurrentFrame,mpMap,mpKeyFrameDB);
 
-        // ！！！这里是不是缺少一个 pKFini->ComputeBoW();  //???
+        // ！！！这里是不是缺少一个 pKFini->ComputeBoW();  //???  //FIXME:
 
         // Insert KeyFrame in the map
         // KeyFrame中包含了地图、反过来地图中也包含了KeyFrame，相互包含

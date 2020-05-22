@@ -795,7 +795,7 @@ cv::Mat Frame::UnprojectStereo(const int &i)
     // mvDepth是在ComputeStereoMatches函数中求取的
     // mvDepth对应的校正前的特征点，可这里却是对校正后特征点反投影
     // KeyFrame::UnprojectStereo中是对校正前的特征点mvKeys反投影
-    // 在ComputeStereoMatches函数中应该对校正后的特征点求深度？？ (wubo???)
+    // 在ComputeStereoMatches函数中应该对校正后的特征点求深度？？ (wubo???)  //FIXME:
     const float z = mvDepth[i];
     if(z>0)
     {

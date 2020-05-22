@@ -85,10 +85,10 @@ public:
 
 public:
     long unsigned int mnId; ///< Global ID for MapPoint
-    static long unsigned int nNextId;
+    static long unsigned int nNextId; // last MapPoint id
     const long int mnFirstKFid; ///< 创建该MapPoint的关键帧ID
     const long int mnFirstFrame; ///< 创建该MapPoint的帧ID（即每一关键帧有一个帧ID）
-    int nObs;
+    int nObs;  //观测的相机数目nObs，单目+1，双目或者grbd+2
 
     // Variables used by the tracking
     float mTrackProjX;

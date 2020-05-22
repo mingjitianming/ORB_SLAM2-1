@@ -1153,8 +1153,8 @@ void TemplatedVocabulary<TDescriptor,F>::transform(
   const std::vector<TDescriptor>& features,
   BowVector &v, FeatureVector &fv, int levelsup) const
 {
-  v.clear();
-  fv.clear();
+  v.clear();   // word_id  weight
+  fv.clear();  //node_id  descriptor_id
   
   if(empty()) // safe for subclasses
   {
@@ -1427,7 +1427,7 @@ bool TemplatedVocabulary<TDescriptor,F>::loadFromTextFile(const std::string &fil
             string sElement;
             ssnode >> sElement;
             ssd << sElement << " ";
-	}
+	      }
         F::fromString(m_nodes[nid].descriptor, ssd.str());
 
         ssnode >> m_nodes[nid].weight;

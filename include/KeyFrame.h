@@ -180,8 +180,8 @@ public:
     const cv::Mat mDescriptors;
 
     //BoW
-    DBoW2::BowVector mBowVec; ///< Vector of words to represent images
-    DBoW2::FeatureVector mFeatVec; ///< Vector of nodes with indexes of local features
+    DBoW2::BowVector mBowVec; ///< Vector of words to represent images  // word_id  weight
+    DBoW2::FeatureVector mFeatVec; ///< Vector of nodes with indexes of local features //node_id  descriptor_id
 
     // Pose relative to parent (this is computed when bad flag is activated)
     cv::Mat mTcp;
@@ -208,7 +208,7 @@ protected:
     // SE3 Pose and camera center
     cv::Mat Tcw;  //world to camera
     cv::Mat Twc;  //camera to world
-    cv::Mat Ow;
+    cv::Mat Ow;   // 左目 to world
 
     // 世界坐标系下，左目相机中心到立体相机中心的向量，方向由左目相机指向立体相机中心
     cv::Mat Cw; // Stereo middel point. Only for visualization
