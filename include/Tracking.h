@@ -210,7 +210,7 @@ protected:
     //Last Frame, KeyFrame and Relocalisation Info
     KeyFrame* mpLastKeyFrame;
     Frame mLastFrame;
-    unsigned int mnLastKeyFrameId;
+    unsigned int mnLastKeyFrameId;   //上一个成为KeyFrame的frame的id
     unsigned int mnLastRelocFrameId;
 
     //Motion Model
