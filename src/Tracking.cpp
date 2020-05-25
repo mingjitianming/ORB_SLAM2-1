@@ -372,7 +372,7 @@ void Tracking::Track()
                 // 步骤2.1：跟踪上一帧或者参考帧或者重定位
 
                 // 运动模型是空的或刚完成重定位
-                // mCurrentFrame.mnId<mnLastRelocFrameId+2这个判断不应该有
+                // mCurrentFrame.mnId<mnLastRelocFrameId+2这个判断不应该有   //FIXME:
                 // 应该只要mVelocity不为空，就优先选择TrackWithMotionModel
                 // mnLastRelocFrameId上一次重定位的那一帧
                 if(mVelocity.empty() || mCurrentFrame.mnId<mnLastRelocFrameId+2)
@@ -696,7 +696,7 @@ void Tracking::StereoInitialization()
         mLastFrame = Frame(mCurrentFrame);
         mnLastKeyFrameId=mCurrentFrame.mnId;
         mpLastKeyFrame = pKFini;
-
+        // 添加参考帧和参考点
         mvpLocalKeyFrames.push_back(pKFini);
         mvpLocalMapPoints=mpMap->GetAllMapPoints();
         mpReferenceKF = pKFini;
@@ -1049,7 +1049,7 @@ void Tracking::UpdateLastFrame()
 
     // 步骤2：对于双目或rgbd摄像头，为上一帧临时生成新的MapPoints
     // 注意这些MapPoints不加入到Map中，在tracking的最后会删除
-    // 跟踪过程中需要将将上一帧的MapPoints投影到当前帧可以缩小匹配范围，加快当前帧与上一帧进行特征点匹配
+    // 跟踪过程中需要将上一帧的MapPoints投影到当前帧可以缩小匹配范围，加快当前帧与上一帧进行特征点匹配
 
     // Create "visual odometry" MapPoints
     // We sort points according to their measured depth by the stereo/RGB-D sensor
